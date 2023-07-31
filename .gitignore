@@ -1,0 +1,47 @@
+# .gitignore para Quartus/VHDL
+
+# Ignora todos os arquivos temporários
+*.tmp
+
+# Ignora todos os arquivos de backup
+*~
+
+# Ignora todos os arquivos log
+*.log
+
+# Ignora todos os arquivos de saída de compilação
+output_files/
+
+# Ignora arquivos específicos de Quartus
+*.qpf
+*.qsf
+*.sof
+*.pof
+*.jic
+*.map
+*.rpt
+*.summary
+*.done
+*.pin
+*.fit
+*.asm
+*.qdf
+*.smsg
+*.qws
+
+# Ignora arquivos e pastas específicas do DB
+db/
+incremental_db/
+
+# Ignora arquivos e pastas de simulação
+simulation/
+transcript
+*.wlf
+*.vcd
+testbench
+
+# Ignora arquivos de cache
+.nfs*
+
+# Ignora arquivos gerados por processos de compilação
+c5_pin_model_dump.txt
