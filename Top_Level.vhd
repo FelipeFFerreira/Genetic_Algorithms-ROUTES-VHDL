@@ -68,8 +68,11 @@ architecture Behavioral of Top_Level is
     signal parent_1, parent_2 : std_logic_vector(7 downto 0) := (others => '0');
     
     ----------------------------------------------------------------------------------
-    signal stop_init_population : std_logic;
-    signal init_init_population :std_logic;
+    signal stop_init_population : std_logic := '0';
+    signal init_init_population :std_logic := '0';
+	 
+	 type state_t is (s_init, s_print, s_evaluate, s_reproduce, s_check, s_done);
+    signal state : state_t := s_init;
     ----------------------------------------------------------------------------------
     -- Components declaration
     component Init_Population is
@@ -89,6 +92,46 @@ architecture Behavioral of Top_Level is
                 previous_population => previous_population,
                 stop => stop_init_population
             );
+				
+				--MAQUINA DE ESTADOS
+    FSM: process(clk)
+        begin
+            if rising_edge(clk) then
+                case state is
+                    when s_init =>
+                        -- Condições para mover para o próximo estado
+                        state <= s_print;
+
+                    when s_print =>
+                        -- Condições para mover para o próximo estado
+                        state <= s_evaluate;
+
+                    when s_evaluate =>
+                        -- Condições para mover para o próximo estado
+                        state <= s_reproduce;
+
+                    when s_reproduce =>
+                        -- Condições para mover para o próximo estado
+                        state <= s_check;
+
+                    when s_check =>
+                        -- Condições para mover para o próximo estado
+                        -- if check_condition then
+                        --     state <= s_done;
+                        -- else
+                        --     state <= s_evaluate;
+                        -- end if;
+
+                    when s_done =>
+                        -- Nada mais a fazer, então permanece neste estado
+                        null;
+
+                    when others =>
+                        state <= s_init;
+                end case;
+            end if;
+        end process FSM;  
+				
 end architecture Behavioral;
 
 library ieee;
@@ -129,5 +172,3 @@ begin
         end if;
     end process;  
 end Behavioral;
-
-
