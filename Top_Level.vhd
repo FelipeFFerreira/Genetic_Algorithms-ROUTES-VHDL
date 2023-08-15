@@ -209,7 +209,8 @@ architecture Behavioral of Init_Population is
 							datain(15 downto 8) <= std_logic_vector(to_unsigned(j, 8));
 							datain(23 downto 16) <= std_logic_vector(to_unsigned(i*COLS+j+1, 8));
 							address <= std_logic_vector(to_unsigned(p*CHROM_SIZE+(i*COLS+j), 13));
-							state <= s_write;
+							state <= s_write_done;
+							we <= '1';
 							j <= j + 1;
 						else
 							i <= i + 1;
