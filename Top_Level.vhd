@@ -5,108 +5,90 @@ use ieee.numeric_std.all;
 
 package my_types is
     -- Constants
-    constant ROWS: integer := 7;
-    constant COLS: integer := 7;
-    constant GEN_COUNT: integer := 40000;
-    constant POP_SIZE: integer := 100;
-    constant CHROM_SIZE: integer := 49;
-    constant SEL_RATE: real := 0.9;
-    constant CROSS_RATE: real := 0.8;
-    constant MUT_RATE: real := 0.8;
+    constant ROWS			: integer := 7;
+    constant COLS			: integer := 7;
+    constant GEN_COUNT		: integer := 40000;
+    constant POP_SIZE		: integer := 100;
+    constant CHROM_SIZE		: integer := 49;
+    constant SEL_RATE		: real := 0.9;
+    constant CROSS_RATE		: real := 0.8;
+    constant MUT_RATE		: real := 0.8;
 end package my_types;
 
 ---
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-
-entity sync_ram is
-  port (
-    clock   : in  std_logic;
-    we      : in  std_logic;
-    address : in  std_logic_vector (12 downto 0);
-    datain  : in  std_logic_vector (23 downto 0);
-    dataout : out std_logic_vector (23 downto 0)
-  );
-end entity sync_ram;
-
-architecture RTL of sync_ram is
-
-   type ram_type is array (0 to (2**address'length)-1) of std_logic_vector(datain'range);
-   signal ram : ram_type;
-   signal read_address : std_logic_vector(address'range);
-
-begin
-
-  RamProc: process(clock) is
-
-  begin
-    if rising_edge(clock) then
-      if we = '1' then
-        ram(to_integer(unsigned(address))) <= datain;
-      end if;
-      read_address <= address;
-    end if;
-  end process RamProc;
-
-  dataout <= ram(to_integer(unsigned(read_address)));
-
-end architecture RTL;
-
 ---
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
 
 entity Top_Level is 
     port (
-        clock : in std_logic;
-        init : in std_logic;
-        stop : out std_logic
-    );
+		clock, reset 	: in std_logic;
+		output 			: out std_logic_vector (6 downto 0));
 end entity Top_Level;
 
 architecture Behavioral of Top_Level is
 
     use work.my_types.all;
-
     ----------------------------------------------------------------------------------
-    signal done_init_population : std_logic := '0';
-    signal init_init_population :std_logic := '0';
-	 ----------------------------------------------------------------------------------
-	 signal address 	: std_logic_vector (12 downto 0) := "0000000000000";
-	 signal datain 	: std_logic_vector (23 downto 0) := "000000000000000000000000";
-	 signal dataout 	: std_logic_vector (23 downto 0) := "000000000000000000000000";
-	 signal we      	: std_logic;
-	 ----------------------------------------------------------------------------------
-	 type state_t is (s_init, s_print, s_evaluate, s_reproduce, s_check, s_done);
+    signal done_init_population, init_init_population :	std_logic := '0';
+	signal init_print, done_print : std_logic := '0';
+	signal sel_address : BIT;
+	----------------------------------------------------------------------------------
+	signal init_population_adress : std_logic_vector (12 downto 0) := (others => '0');
+	signal print_data_adress	  : std_logic_vector (12 downto 0) := (others => '0');
+
+	signal address 		: std_logic_vector (12 downto 0) := (others => '0');
+	signal datain 		: std_logic_vector (23 downto 0) := (others => '0');
+	signal dataout   	: std_logic_vector (23 downto 0) := (others => '0');
+	signal we      		: std_logic;
+	----------------------------------------------------------------------------------
+	signal bcd				: std_logic_vector(3 downto 0);
+	signal output_display 	: std_logic_vector(6 downto 0);
+	----------------------------------------------------------------------------------
+	-- type state_t is (s_init, s_print, s_evaluate, s_reproduce, s_check, s_done);
+	type state_t is (s_init, s_print, s_evaluate);
     signal state : state_t := s_init;
     ----------------------------------------------------------------------------------
-   
+	----------------------------------------------------------------------------------
 	-- Components declaration
 	component sync_ram is
 		port (
-			clock   : in  std_logic;
-			we      : in  std_logic;
-			address : in  std_logic_vector (12 downto 0);
-			datain  : in  std_logic_vector (23 downto 0);
-			dataout : out std_logic_vector (23 downto 0)
+			clock, we   : in  std_logic;
+			address 	: in  std_logic_vector (12 downto 0);
+			datain  	: in  std_logic_vector (23 downto 0);
+			dataout 	: out std_logic_vector (23 downto 0)
 		);
 	end component sync_ram;
-	
+
 	component Init_Population is
 		port(
-			clock 	: in std_logic;
-         init 	: in std_logic;
-         stop 	: out std_logic;
-			we      : out  std_logic;
-			address : out  std_logic_vector (12 downto 0);
-			datain  : out  std_logic_vector (23 downto 0)
+			clock, init, reset 	: in std_logic;
+			stop				: buffer std_logic;
+         	we 					: out std_logic;
+			address 			: out  std_logic_vector (12 downto 0);
+			datain  			: out  std_logic_vector (23 downto 0)
 		);
    end component;
 
-		
-	begin
+   component Print_data is
+		port (
+			clock, reset, init 	: in std_logic;
+			bcd_i 				: out  std_logic_vector (3 downto 0);
+			address 			: out  std_logic_vector (12 downto 0);
+			dataout 			: in std_logic_vector (23 downto 0)
+		);
+	end component;
+
+	component bcd_seven_seg  is
+		port(
+			clock_i		: in std_logic;
+			bcd_i   	: in  std_logic_vector(3 downto 0);
+			seven_o 	: out std_logic_vector(6 downto 0)
+		);
+	end component;
+	----------------------------------------------------------------------------------
+BEGIN
 		ram_instance : sync_ram
 			port map (
 				clock   => clock,
@@ -118,111 +100,65 @@ architecture Behavioral of Top_Level is
 
 		init_population_instance : Init_Population
 			port map (
-				clock     => clock,
+				clock   => clock,
+				reset	=> reset,
 				we      => we,
 				init    => init_init_population,
 				stop    => done_init_population,
-				address => address,
+				address => init_population_adress,
 				datain  => datain
 			);
-		  
-		FSM: process(clock)
-		begin
-			if rising_edge(clock) then
-				case state is
-					when s_init =>
-						init_init_population <= '1';
-						if done_init_population = '1' then
-							init_init_population <= '0';
-                      state <= s_print;
-						end if;
-                    when s_print =>
-                        state <= s_evaluate;
-                    when s_done =>
-                        null;
-                    when others =>
-                        state <= s_init;
-                end case;
-            end if;
-        end process FSM;  
+
+		print_data_instance : Print_data
+			port map (
+				clock	=> clock,
+				reset	=> reset,
+				init	=> init_print,
+				bcd_i	=> bcd,
+				address => print_data_adress,
+				dataout => dataout
+			);
+
+		bcd_seven_instance : bcd_seven_seg 
+			port map (
+				clock_i => clock,
+				bcd_i 	=> bcd,
+				seven_o => output
+			);
+	
+		WITH sel_address SELECT
+			address <= 	init_population_adress WHEN '0',
+						print_data_adress	   WHEN '1';
+
+	FSM: process(clock, reset)
+		BEGIN
+		IF (reset = '1') THEN
+			init_init_population <= '0';
+			init_print <= '0';
+			--address <= (others => '0');
+			--datain <=  (others => '0');
+			--dataout <=  (others => '0');
+			state <= s_init;
+		ELSIF (clock'event AND clock = '1') THEN
+			case state is
+				WHEN s_init =>
+					sel_address <= '0';
+					init_init_population <= '1';
+					IF (done_init_population = '1') THEN
+						init_init_population <= '0';
+						state <= s_print;
+					END IF;
+				WHEN s_print =>
+					sel_address <= '1';
+					init_print <= '1';
+					IF (done_print = '1') THEN
+						init_print <= '0';
+						state <= s_evaluate;
+					END IF;
+				WHEN s_evaluate =>
+				
+          END CASE;
+       END IF;
+    END PROCESS FSM;  
 				
 end architecture Behavioral;
-
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
-use work.my_types.all;
-
-entity Init_Population is 
-		port (
-			clock : in std_logic;
-			init : in std_logic;
-			stop : out std_logic;
-			we      : out  std_logic;
-			address : out  std_logic_vector (12 downto 0);
-			datain  : out  std_logic_vector (23 downto 0)		  
-		);
-end entity Init_Population;
-
-architecture Behavioral of Init_Population is
-	signal row_col_data : std_logic_vector(23 downto 0);
-	type state_type is (s_idle, s_p_loop, s_i_loop, s_j_loop, s_write, s_write_done);
-	signal state: state_type := s_idle;
-	signal p, i, j : integer := 0;
-	
-	begin
-	process(clock)
-		begin
-			if rising_edge(clock) then
-				case state is
-					when s_idle =>
-						if init = '1' then
-							p <= 0;
-							i <= 0;
-							j <= 0;
-							stop <= '0';
-							state <= s_p_loop;
-						else 
-							stop <= '0';
-							we <= '0';
-						end if;
-					when s_p_loop =>
-						if p < POP_SIZE then
-							i <= 0;
-							state <= s_i_loop;
-						else
-							stop <= '1';
-							state <= s_idle;
-						end if;
-					when s_i_loop =>
-						if i < ROWS then
-							j <= 0;
-							state <= s_j_loop;
-						else
-							p <= p + 1;
-							state <= s_p_loop;
-						end if;
-					when s_j_loop =>
-						if j < COLS then
-							we <= '0';
-							datain(7 downto 0) <= std_logic_vector(to_unsigned(i, 8));
-							datain(15 downto 8) <= std_logic_vector(to_unsigned(j, 8));
-							datain(23 downto 16) <= std_logic_vector(to_unsigned(i*COLS+j+1, 8));
-							address <= std_logic_vector(to_unsigned(p*CHROM_SIZE+(i*COLS+j), 13));
-							state <= s_write_done;
-							we <= '1';
-							j <= j + 1;
-						else
-							i <= i + 1;
-							state <= s_i_loop;
-						end if;
-					when s_write =>
-						we <= '1';
-						state <= s_write_done;
-					when s_write_done =>
-						we <= '0';
-						state <= s_j_loop;
-				end case;
-			end if;
-	end process;  
-end Behavioral;
