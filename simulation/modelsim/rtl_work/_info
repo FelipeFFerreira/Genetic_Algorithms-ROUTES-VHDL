@@ -1,0 +1,242 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Mestrado-ITA/VHDL/PROJETO/simulation/modelsim
+Ebcd_seven_seg
+Z1 w1695362805
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd
+Z6 FD:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd
+l0
+L5
+VS?^WFA<o3QIdb9]LCj>7z0
+!s100 VD=2lIDWI6bhXBTHMlK<71
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1695363189
+!i10b 1
+Z9 !s108 1695363189.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd|
+Z11 !s107 D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 13 bcd_seven_seg 0 22 S?^WFA<o3QIdb9]LCj>7z0
+l14
+L13
+V2^k^PPTUnW62ah_0MkO1G0
+!s100 0G`l]AQW?^Ijo@K8Ujf:G2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egenetic_algorithm
+Z14 w1695361307
+R2
+R3
+R4
+R0
+Z15 8D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd
+Z16 FD:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd
+l0
+L24
+V=chVM^J:aPBI_lZ=U7a780
+!s100 EVOF4Yn9YfiOo@9FkC1nD2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd|
+Z18 !s107 D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+Z19 DPx4 work 8 my_types 0 22 4g?JEfhhcgY]=208V@R7m1
+R2
+R3
+R4
+DEx4 work 17 genetic_algorithm 0 22 =chVM^J:aPBI_lZ=U7a780
+l91
+L30
+VIbk1cX@5H?2TYe[THEb[g0
+!s100 OU?VQQKmf8Ke65HkOb>G52
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Einit_population
+Z20 w1695361360
+R19
+R2
+R3
+R4
+R0
+Z21 8D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd
+Z22 FD:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd
+l0
+L8
+VgzEHHWa>_QB4Wj7aiYmU31
+!s100 4aFS4iYBiO]`DX?;Qlfif3
+R7
+31
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd|
+Z24 !s107 D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R19
+R2
+R3
+R4
+DEx4 work 15 init_population 0 22 gzEHHWa>_QB4Wj7aiYmU31
+l25
+L18
+V]lmB]eciC1m3XzL7RajRJ0
+!s100 :aS6iRMMcPKa0?:_L5^:_3
+R7
+31
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Pmy_types
+R2
+R3
+R4
+R14
+R0
+R15
+R16
+l0
+L6
+V4g?JEfhhcgY]=208V@R7m1
+!s100 K68hz<dSBX5=73k7`SRif0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eprint_data
+Z25 w1695361375
+R19
+R2
+R3
+R4
+R0
+Z26 8D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd
+Z27 FD:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd
+l0
+L7
+Viz=8`bX1A607@V^R2;DSj3
+!s100 [TW@DaB;_UFhgoi<?oA9=0
+R7
+31
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd|
+Z29 !s107 D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R19
+R2
+R3
+R4
+DEx4 work 10 print_data 0 22 iz=8`bX1A607@V^R2;DSj3
+l19
+L16
+V541ZkS1[@l:413K<z6MEl3
+!s100 [g6:H?=X>]0ld^4II1Bi<1
+R7
+31
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Esync_ram
+Z30 w1695361395
+R2
+R3
+R4
+R0
+Z31 8D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd
+Z32 FD:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd
+l0
+L7
+V]zRfPR2Ll>7I1?U8?NREY2
+!s100 EbGKzI7aBkkPPGLK9Ko=_0
+R7
+31
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd|
+Z34 !s107 D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 8 sync_ram 0 22 ]zRfPR2Ll>7I1?U8?NREY2
+l22
+L16
+V^2@Nem0fRhngo46zf60X82
+!s100 BXT8U87L:AjTVi:?Y=f5F3
+R7
+31
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13

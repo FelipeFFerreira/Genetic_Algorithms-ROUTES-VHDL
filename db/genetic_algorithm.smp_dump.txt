@@ -1,0 +1,21 @@
+
+State Machine - |genetic_algorithm|state
+Name state.s_evaluate state.s_print state.s_init 
+state.s_init 0 0 0 
+state.s_print 0 1 1 
+state.s_evaluate 1 0 1 
+
+State Machine - |genetic_algorithm|Print_data:print_data_instance|state
+Name state.s_write state.s_address state.s_idle 
+state.s_idle 0 0 0 
+state.s_address 0 1 1 
+state.s_write 1 0 1 
+
+State Machine - |genetic_algorithm|Init_Population:init_population_instance|state
+Name state.s_write_done state.s_write state.s_j_loop state.s_i_loop state.s_p_loop state.s_idle 
+state.s_idle 0 0 0 0 0 0 
+state.s_p_loop 0 0 0 0 1 1 
+state.s_i_loop 0 0 0 1 0 1 
+state.s_j_loop 0 0 1 0 0 1 
+state.s_write 0 1 0 0 0 1 
+state.s_write_done 1 0 0 0 0 1 
