@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("D:/Mestrado-ITA/VHDL/PROJETO/output_files/") File("genetic_algorithm.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/output_files/") File("genetic_algorithm.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

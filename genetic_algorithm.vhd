@@ -24,7 +24,7 @@ use ieee.numeric_std.all;
 entity genetic_algorithm is 
     port (
 		clock, reset 	: in std_logic;
-		output 			: out std_logic_vector (6 downto 0));
+		output, output_1 			: out std_logic_vector (6 downto 0));
 end entity genetic_algorithm ;
 
 architecture Behavioral of genetic_algorithm is
@@ -44,6 +44,7 @@ architecture Behavioral of genetic_algorithm is
 	signal we      		: std_logic;
 	----------------------------------------------------------------------------------
 	signal bcd				: std_logic_vector(3 downto 0);
+	signal bcd_1				: std_logic_vector(3 downto 0);
 	signal output_display 	: std_logic_vector(6 downto 0);
 	----------------------------------------------------------------------------------
 	-- type state_t is (s_init, s_print, s_evaluate, s_reproduce, s_check, s_done);
@@ -74,7 +75,7 @@ architecture Behavioral of genetic_algorithm is
    component Print_data is
 		port (
 			clock, reset, init 	: in std_logic;
-			bcd_i 				: out  std_logic_vector (3 downto 0);
+			bcd_i, bcd_i_1				: out  std_logic_vector (3 downto 0);
 			address 			: out  std_logic_vector (12 downto 0);
 			dataout 			: in std_logic_vector (23 downto 0)
 		);
@@ -115,6 +116,7 @@ BEGIN
 				reset	=> reset,
 				init	=> init_print,
 				bcd_i	=> bcd,
+				bcd_i_1 => bcd_1,
 				address => print_data_adress,
 				dataout => dataout
 			);
@@ -124,6 +126,13 @@ BEGIN
 				clock_i => clock,
 				bcd_i 	=> bcd,
 				seven_o => output
+			);
+		
+		bcd_seven_instance_1 : bcd_seven_seg 
+			port map (
+				clock_i => clock,
+				bcd_i 	=> bcd_1,
+				seven_o => output_1
 			);
 	
 		WITH sel_address SELECT

@@ -43,9 +43,10 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd}
-vcom -93 -work work {D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd}
-vcom -93 -work work {D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd}
-vcom -93 -work work {D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd}
-vcom -93 -work work {D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd}
+vcom -93 -work work {D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd}
+vcom -93 -work work {D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd}
+vcom -93 -work work {D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd}
+vcom -93 -work work {D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd}
+vcom -93 -work work {D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd}
+vcom -93 -work work {D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd}
 

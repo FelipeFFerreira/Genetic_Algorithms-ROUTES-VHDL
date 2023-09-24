@@ -7,26 +7,26 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Mestrado-ITA/VHDL/PROJETO/simulation/modelsim
+Z0 dD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/simulation/modelsim
 Ebcd_seven_seg
-Z1 w1695362805
+Z1 w1695364345
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z5 8D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd
-Z6 FD:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd
+Z5 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd
+Z6 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd
 l0
 L5
 VS?^WFA<o3QIdb9]LCj>7z0
 !s100 VD=2lIDWI6bhXBTHMlK<71
 Z7 OV;C;10.5b;63
 31
-Z8 !s110 1695363189
+Z8 !s110 1695513295
 !i10b 1
-Z9 !s108 1695363189.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd|
-Z11 !s107 D:/Mestrado-ITA/VHDL/PROJETO/bcd_seven_seg.vhd|
+Z9 !s108 1695513295.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd|
+Z11 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd|
 !i113 1
 Z12 o-93 -work work
 Z13 tExplicit 1 CvgOpt 0
@@ -37,8 +37,8 @@ R4
 DEx4 work 13 bcd_seven_seg 0 22 S?^WFA<o3QIdb9]LCj>7z0
 l14
 L13
-V2^k^PPTUnW62ah_0MkO1G0
-!s100 0G`l]AQW?^Ijo@K8Ujf:G2
+V3c@4na_lPhEUQNlDa5JOd0
+!s100 :Rm?0<Ta;Rb]I<`W?DgeZ3
 R7
 31
 R8
@@ -49,57 +49,100 @@ R11
 !i113 1
 R12
 R13
-Egenetic_algorithm
-Z14 w1695361307
+Ebin_to_bcd
+Z14 w1695507279
+Z15 DPx4 work 8 my_types 0 22 4g?JEfhhcgY]=208V@R7m1
 R2
 R3
 R4
 R0
-Z15 8D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd
-Z16 FD:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd
+Z16 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd
+Z17 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd
+l0
+L7
+VmP6>KCeb[=R2l:d>AUTJ_0
+!s100 =m<W`^J`S>W4CK0nF<;<L2
+R7
+31
+Z18 !s110 1695513296
+!i10b 1
+Z19 !s108 1695513296.000000
+Z20 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd|
+Z21 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+R4
+DEx4 work 10 bin_to_bcd 0 22 mP6>KCeb[=R2l:d>AUTJ_0
+l17
+L15
+V0EIP:4O7d3K6HoI4`UFjm3
+!s100 IYL@>HTF5zC>9bW9VO=A<2
+R7
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Egenetic_algorithm
+Z22 w1695508814
+R2
+R3
+R4
+R0
+Z23 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd
+Z24 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd
 l0
 L24
-V=chVM^J:aPBI_lZ=U7a780
-!s100 EVOF4Yn9YfiOo@9FkC1nD2
+VSa_A9T[LG6L@PMKWHQ54D3
+!s100 U51?ZlTIFZjeNGk0hODm]3
 R7
 31
 R8
 !i10b 1
 R9
-Z17 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd|
-Z18 !s107 D:/Mestrado-ITA/VHDL/PROJETO/genetic_algorithm.vhd|
+Z25 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd|
+Z26 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-Z19 DPx4 work 8 my_types 0 22 4g?JEfhhcgY]=208V@R7m1
+R15
 R2
 R3
 R4
-DEx4 work 17 genetic_algorithm 0 22 =chVM^J:aPBI_lZ=U7a780
-l91
+DEx4 work 17 genetic_algorithm 0 22 Sa_A9T[LG6L@PMKWHQ54D3
+l92
 L30
-VIbk1cX@5H?2TYe[THEb[g0
-!s100 OU?VQQKmf8Ke65HkOb>G52
+VQ7jH4de?N[K:`:dbHTdPM0
+!s100 No=d>:>U1NV@`0dPLznZ32
 R7
 31
 R8
 !i10b 1
 R9
-R17
-R18
+R25
+R26
 !i113 1
 R12
 R13
 Einit_population
-Z20 w1695361360
-R19
+Z27 w1695361360
+R15
 R2
 R3
 R4
 R0
-Z21 8D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd
-Z22 FD:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd
+Z28 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd
+Z29 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd
 l0
 L8
 VgzEHHWa>_QB4Wj7aiYmU31
@@ -109,13 +152,13 @@ R7
 R8
 !i10b 1
 R9
-Z23 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd|
-Z24 !s107 D:/Mestrado-ITA/VHDL/PROJETO/Init_Population.vhd|
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd|
+Z31 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R19
+R15
 R2
 R3
 R4
@@ -129,8 +172,8 @@ R7
 R8
 !i10b 1
 R9
-R23
-R24
+R30
+R31
 !i113 1
 R12
 R13
@@ -138,10 +181,10 @@ Pmy_types
 R2
 R3
 R4
-R14
+R22
 R0
-R15
-R16
+R23
+R24
 l0
 L6
 V4g?JEfhhcgY]=208V@R7m1
@@ -151,62 +194,62 @@ R7
 R8
 !i10b 1
 R9
-R17
-R18
+R25
+R26
 !i113 1
 R12
 R13
 Eprint_data
-Z25 w1695361375
-R19
+Z32 w1695513068
+R15
 R2
 R3
 R4
 R0
-Z26 8D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd
-Z27 FD:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd
+Z33 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd
+Z34 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd
 l0
 L7
-Viz=8`bX1A607@V^R2;DSj3
-!s100 [TW@DaB;_UFhgoi<?oA9=0
+VGmM_inFmbHa392`1XJ^iU1
+!s100 801CS`28PDkVeQkWUMQ[C2
 R7
 31
-R8
+R18
 !i10b 1
 R9
-Z28 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd|
-Z29 !s107 D:/Mestrado-ITA/VHDL/PROJETO/Print_data.vhd|
+Z35 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd|
+Z36 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R19
+R15
 R2
 R3
 R4
-DEx4 work 10 print_data 0 22 iz=8`bX1A607@V^R2;DSj3
-l19
+DEx4 work 10 print_data 0 22 GmM_inFmbHa392`1XJ^iU1
+l32
 L16
-V541ZkS1[@l:413K<z6MEl3
-!s100 [g6:H?=X>]0ld^4II1Bi<1
+VzNCJK5HP<9@dC^j^FF6H21
+!s100 ED>h02kDTejCFcSL07JQ83
 R7
 31
-R8
+R18
 !i10b 1
 R9
-R28
-R29
+R35
+R36
 !i113 1
 R12
 R13
 Esync_ram
-Z30 w1695361395
+Z37 w1695361395
 R2
 R3
 R4
 R0
-Z31 8D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd
-Z32 FD:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd
+Z38 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd
+Z39 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd
 l0
 L7
 V]zRfPR2Ll>7I1?U8?NREY2
@@ -216,8 +259,8 @@ R7
 R8
 !i10b 1
 R9
-Z33 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd|
-Z34 !s107 D:/Mestrado-ITA/VHDL/PROJETO/sync_ram.vhd|
+Z40 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd|
+Z41 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd|
 !i113 1
 R12
 R13
@@ -235,8 +278,8 @@ R7
 R8
 !i10b 1
 R9
-R33
-R34
+R40
+R41
 !i113 1
 R12
 R13

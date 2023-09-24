@@ -1,16 +1,16 @@
-Fitter Status : Successful - Fri Sep 22 03:33:01 2023
+Fitter Status : Successful - Sat Sep 23 21:01:39 2023
 Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 Revision Name : genetic_algorithm
 Top-level Entity Name : genetic_algorithm
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 254 / 114,480 ( < 1 % )
-    Total combinational functions : 247 / 114,480 ( < 1 % )
-    Dedicated logic registers : 139 / 114,480 ( < 1 % )
-Total registers : 139
-Total pins : 9 / 529 ( 2 % )
+Total logic elements : 411 / 114,480 ( < 1 % )
+    Total combinational functions : 401 / 114,480 ( < 1 % )
+    Dedicated logic registers : 170 / 114,480 ( < 1 % )
+Total registers : 170
+Total pins : 16 / 529 ( 3 % )
 Total virtual pins : 0
-Total memory bits : 32,768 / 3,981,312 ( < 1 % )
+Total memory bits : 65,536 / 3,981,312 ( 2 % )
 Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
 Total PLLs : 0 / 4 ( 0 % )

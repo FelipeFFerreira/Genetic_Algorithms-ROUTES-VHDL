@@ -1,5 +1,5 @@
 Flow report for genetic_algorithm
-Fri Sep 22 03:33:10 2023
+Sat Sep 23 21:01:48 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -41,20 +41,20 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Fri Sep 22 03:33:10 2023          ;
+; Flow Status                        ; Successful - Sat Sep 23 21:01:48 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; genetic_algorithm                              ;
 ; Top-level Entity Name              ; genetic_algorithm                              ;
 ; Family                             ; Cyclone IV E                                   ;
 ; Device                             ; EP4CE115F29C7                                  ;
 ; Timing Models                      ; Final                                          ;
-; Total logic elements               ; 254 / 114,480 ( < 1 % )                        ;
-;     Total combinational functions  ; 247 / 114,480 ( < 1 % )                        ;
-;     Dedicated logic registers      ; 139 / 114,480 ( < 1 % )                        ;
-; Total registers                    ; 139                                            ;
-; Total pins                         ; 9 / 529 ( 2 % )                                ;
+; Total logic elements               ; 411 / 114,480 ( < 1 % )                        ;
+;     Total combinational functions  ; 401 / 114,480 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 170 / 114,480 ( < 1 % )                        ;
+; Total registers                    ; 170                                            ;
+; Total pins                         ; 16 / 529 ( 3 % )                               ;
 ; Total virtual pins                 ; 0                                              ;
-; Total memory bits                  ; 32,768 / 3,981,312 ( < 1 % )                   ;
+; Total memory bits                  ; 65,536 / 3,981,312 ( 2 % )                     ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                                ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                                  ;
 +------------------------------------+------------------------------------------------+
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/22/2023 03:32:31 ;
+; Start date & time ; 09/23/2023 21:01:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; genetic_algorithm   ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 27214220493673.169536435113380         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 27214220493673.169551367005428         ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -99,12 +99,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4840 MB             ; 00:00:20                           ;
-; Fitter               ; 00:00:19     ; 1.0                     ; 5716 MB             ; 00:00:25                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4726 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4856 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4648 MB             ; 00:00:01                           ;
-; Total                ; 00:00:36     ; --                      ; --                  ; 00:00:51                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4845 MB             ; 00:00:21                           ;
+; Fitter               ; 00:00:17     ; 1.0                     ; 5706 MB             ; 00:00:24                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4717 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4850 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4657 MB             ; 00:00:01                           ;
+; Total                ; 00:00:34     ; --                      ; --                  ; 00:00:51                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

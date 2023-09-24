@@ -6,6 +6,7 @@ clock => init_init_population.CLK
 clock => Init_Population:init_population_instance.clock
 clock => Print_data:print_data_instance.clock
 clock => bcd_seven_seg:bcd_seven_instance.clock_i
+clock => bcd_seven_seg:bcd_seven_instance_1.clock_i
 clock => state~4.DATAIN
 reset => Init_Population:init_population_instance.reset
 reset => init_print.ACLR
@@ -20,6 +21,13 @@ output[3] << bcd_seven_seg:bcd_seven_instance.seven_o[3]
 output[4] << bcd_seven_seg:bcd_seven_instance.seven_o[4]
 output[5] << bcd_seven_seg:bcd_seven_instance.seven_o[5]
 output[6] << bcd_seven_seg:bcd_seven_instance.seven_o[6]
+output_1[0] << bcd_seven_seg:bcd_seven_instance_1.seven_o[0]
+output_1[1] << bcd_seven_seg:bcd_seven_instance_1.seven_o[1]
+output_1[2] << bcd_seven_seg:bcd_seven_instance_1.seven_o[2]
+output_1[3] << bcd_seven_seg:bcd_seven_instance_1.seven_o[3]
+output_1[4] << bcd_seven_seg:bcd_seven_instance_1.seven_o[4]
+output_1[5] << bcd_seven_seg:bcd_seven_instance_1.seven_o[5]
+output_1[6] << bcd_seven_seg:bcd_seven_instance_1.seven_o[6]
 
 
 |genetic_algorithm|sync_ram:ram_instance
@@ -614,6 +622,23 @@ datain[23] <= datain[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |genetic_algorithm|Print_data:print_data_instance
+clock => bin_to_bcd:bin_to_bcd_instance.clock
+clock => bcd_i_aux[0].CLK
+clock => bcd_i_aux[1].CLK
+clock => bcd_i_aux[2].CLK
+clock => bcd_i_aux[3].CLK
+clock => bcd_i_aux[4].CLK
+clock => bcd_i_aux[5].CLK
+clock => bcd_i_aux[6].CLK
+clock => bcd_i_aux[7].CLK
+clock => row_col_data[16].CLK
+clock => row_col_data[17].CLK
+clock => row_col_data[18].CLK
+clock => row_col_data[19].CLK
+clock => row_col_data[20].CLK
+clock => row_col_data[21].CLK
+clock => row_col_data[22].CLK
+clock => row_col_data[23].CLK
 clock => address[0]~reg0.CLK
 clock => address[1]~reg0.CLK
 clock => address[2]~reg0.CLK
@@ -627,17 +652,24 @@ clock => address[9]~reg0.CLK
 clock => address[10]~reg0.CLK
 clock => address[11]~reg0.CLK
 clock => address[12]~reg0.CLK
+clock => bcd_i_1[0]~reg0.CLK
+clock => bcd_i_1[1]~reg0.CLK
+clock => bcd_i_1[2]~reg0.CLK
+clock => bcd_i_1[3]~reg0.CLK
 clock => bcd_i[0]~reg0.CLK
 clock => bcd_i[1]~reg0.CLK
 clock => bcd_i[2]~reg0.CLK
 clock => bcd_i[3]~reg0.CLK
 clock => state~4.DATAIN
+reset => bcd_i_1[0]~reg0.ACLR
+reset => bcd_i_1[1]~reg0.PRESET
+reset => bcd_i_1[2]~reg0.PRESET
+reset => bcd_i_1[3]~reg0.PRESET
 reset => bcd_i[0]~reg0.ACLR
 reset => bcd_i[1]~reg0.PRESET
 reset => bcd_i[2]~reg0.PRESET
 reset => bcd_i[3]~reg0.PRESET
 reset => state~6.DATAIN
-reset => address[0]~reg0.ENA
 reset => address[12]~reg0.ENA
 reset => address[11]~reg0.ENA
 reset => address[10]~reg0.ENA
@@ -650,6 +682,23 @@ reset => address[4]~reg0.ENA
 reset => address[3]~reg0.ENA
 reset => address[2]~reg0.ENA
 reset => address[1]~reg0.ENA
+reset => address[0]~reg0.ENA
+reset => row_col_data[23].ENA
+reset => row_col_data[22].ENA
+reset => row_col_data[21].ENA
+reset => row_col_data[20].ENA
+reset => row_col_data[19].ENA
+reset => row_col_data[18].ENA
+reset => row_col_data[17].ENA
+reset => bcd_i_aux[0].ENA
+reset => row_col_data[16].ENA
+reset => bcd_i_aux[7].ENA
+reset => bcd_i_aux[6].ENA
+reset => bcd_i_aux[5].ENA
+reset => bcd_i_aux[4].ENA
+reset => bcd_i_aux[3].ENA
+reset => bcd_i_aux[2].ENA
+reset => bcd_i_aux[1].ENA
 init => state.OUTPUTSELECT
 init => state.OUTPUTSELECT
 init => state.OUTPUTSELECT
@@ -657,6 +706,10 @@ bcd_i[0] <= bcd_i[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 bcd_i[1] <= bcd_i[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 bcd_i[2] <= bcd_i[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 bcd_i[3] <= bcd_i[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_i_1[0] <= bcd_i_1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_i_1[1] <= bcd_i_1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_i_1[2] <= bcd_i_1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_i_1[3] <= bcd_i_1[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 address[0] <= address[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 address[1] <= address[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 address[2] <= address[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -670,10 +723,10 @@ address[9] <= address[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 address[10] <= address[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 address[11] <= address[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 address[12] <= address[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-dataout[0] => bcd_i[0]~reg0.DATAIN
-dataout[1] => bcd_i[1]~reg0.DATAIN
-dataout[2] => bcd_i[2]~reg0.DATAIN
-dataout[3] => bcd_i[3]~reg0.DATAIN
+dataout[0] => ~NO_FANOUT~
+dataout[1] => ~NO_FANOUT~
+dataout[2] => ~NO_FANOUT~
+dataout[3] => ~NO_FANOUT~
 dataout[4] => ~NO_FANOUT~
 dataout[5] => ~NO_FANOUT~
 dataout[6] => ~NO_FANOUT~
@@ -686,17 +739,97 @@ dataout[12] => ~NO_FANOUT~
 dataout[13] => ~NO_FANOUT~
 dataout[14] => ~NO_FANOUT~
 dataout[15] => ~NO_FANOUT~
-dataout[16] => ~NO_FANOUT~
-dataout[17] => ~NO_FANOUT~
-dataout[18] => ~NO_FANOUT~
-dataout[19] => ~NO_FANOUT~
-dataout[20] => ~NO_FANOUT~
-dataout[21] => ~NO_FANOUT~
-dataout[22] => ~NO_FANOUT~
-dataout[23] => ~NO_FANOUT~
+dataout[16] => row_col_data.DATAB
+dataout[17] => row_col_data.DATAB
+dataout[18] => row_col_data.DATAB
+dataout[19] => row_col_data.DATAB
+dataout[20] => row_col_data.DATAB
+dataout[21] => row_col_data.DATAB
+dataout[22] => row_col_data.DATAB
+dataout[23] => row_col_data.DATAB
+
+
+|genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance
+clock => bcd_units[0]~reg0.CLK
+clock => bcd_units[1]~reg0.CLK
+clock => bcd_units[2]~reg0.CLK
+clock => bcd_units[3]~reg0.CLK
+clock => bcd_dozens[0]~reg0.CLK
+clock => bcd_dozens[1]~reg0.CLK
+clock => bcd_dozens[2]~reg0.CLK
+clock => bcd_dozens[3]~reg0.CLK
+num_bin[0] => Div0.IN11
+num_bin[0] => Mod0.IN15
+num_bin[1] => Div0.IN10
+num_bin[1] => Mod0.IN14
+num_bin[2] => Div0.IN9
+num_bin[2] => Mod0.IN13
+num_bin[3] => Div0.IN8
+num_bin[3] => Mod0.IN12
+num_bin[4] => Div0.IN7
+num_bin[4] => Mod0.IN11
+num_bin[5] => Div0.IN6
+num_bin[5] => Mod0.IN10
+num_bin[6] => Div0.IN5
+num_bin[6] => Mod0.IN9
+num_bin[7] => Div0.IN4
+num_bin[7] => Mod0.IN8
+bcd_dozens[0] <= bcd_dozens[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_dozens[1] <= bcd_dozens[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_dozens[2] <= bcd_dozens[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_dozens[3] <= bcd_dozens[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_units[0] <= bcd_units[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_units[1] <= bcd_units[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_units[2] <= bcd_units[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_units[3] <= bcd_units[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |genetic_algorithm|bcd_seven_seg:bcd_seven_instance
+clock_i => seven_o[0]~reg0.CLK
+clock_i => seven_o[1]~reg0.CLK
+clock_i => seven_o[2]~reg0.CLK
+clock_i => seven_o[3]~reg0.CLK
+clock_i => seven_o[4]~reg0.CLK
+clock_i => seven_o[5]~reg0.CLK
+clock_i => seven_o[6]~reg0.CLK
+bcd_i[0] => Mux0.IN19
+bcd_i[0] => Mux1.IN19
+bcd_i[0] => Mux2.IN19
+bcd_i[0] => Mux3.IN19
+bcd_i[0] => Mux4.IN19
+bcd_i[0] => Mux5.IN19
+bcd_i[0] => Mux6.IN19
+bcd_i[1] => Mux0.IN18
+bcd_i[1] => Mux1.IN18
+bcd_i[1] => Mux2.IN18
+bcd_i[1] => Mux3.IN18
+bcd_i[1] => Mux4.IN18
+bcd_i[1] => Mux5.IN18
+bcd_i[1] => Mux6.IN18
+bcd_i[2] => Mux0.IN17
+bcd_i[2] => Mux1.IN17
+bcd_i[2] => Mux2.IN17
+bcd_i[2] => Mux3.IN17
+bcd_i[2] => Mux4.IN17
+bcd_i[2] => Mux5.IN17
+bcd_i[2] => Mux6.IN17
+bcd_i[3] => Mux0.IN16
+bcd_i[3] => Mux1.IN16
+bcd_i[3] => Mux2.IN16
+bcd_i[3] => Mux3.IN16
+bcd_i[3] => Mux4.IN16
+bcd_i[3] => Mux5.IN16
+bcd_i[3] => Mux6.IN16
+seven_o[0] <= seven_o[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seven_o[1] <= seven_o[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seven_o[2] <= seven_o[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seven_o[3] <= seven_o[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seven_o[4] <= seven_o[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seven_o[5] <= seven_o[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seven_o[6] <= seven_o[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|genetic_algorithm|bcd_seven_seg:bcd_seven_instance_1
 clock_i => seven_o[0]~reg0.CLK
 clock_i => seven_o[1]~reg0.CLK
 clock_i => seven_o[2]~reg0.CLK
