@@ -29,15 +29,15 @@ architecture RTL of Print_data is
     signal count, count_address     									: integer := 0;
 	-- Components declaration
 	component bin_to_bcd is
-		-- generic (
-		-- 	NUM_BIN_SIZE : integer
-		-- );
+		generic (
+			NUM_BIN_SIZE : integer
+		);
 		PORT ( 
 			clock          : in std_logic;
 			reset          : in std_logic;
 			num_bin        : in std_logic_vector(8 - 1 downto 0); -- 13 bits para representar até 4899
-			-- bcd_thousands  : out std_logic_vector(3 downto 0);
-			-- bcd_hundreds   : out std_logic_vector(3 downto 0);
+			bcd_thousands  : out std_logic_vector(3 downto 0);
+			bcd_hundreds   : out std_logic_vector(3 downto 0);
 			bcd_dozens     : out std_logic_vector(3 downto 0);
 			bcd_units      : out std_logic_vector(3 downto 0));
 	end component;
@@ -52,15 +52,15 @@ architecture RTL of Print_data is
 	--
 BEGIN
 		bin_to_bcd_instance : bin_to_bcd
-			-- generic map (
-			-- 	NUM_BIN_SIZE => 8
-			-- )
+			generic map (
+				NUM_BIN_SIZE => 8
+			)
 			port map (
 				clock			=> clock,
 				reset			=> reset,
 				num_bin			=> bcd_i_data,
-				-- bcd_thousands	=> bcd_i_thousands,
-				-- bcd_hundreds	=> bcd_i_hundreds,
+				bcd_thousands	=> bcd_i_thousands,
+				bcd_hundreds	=> bcd_i_hundreds,
 				bcd_dozens  	=> bcd_i_dozens,
 				bcd_units   	=> bcd_i_units_data
 			);

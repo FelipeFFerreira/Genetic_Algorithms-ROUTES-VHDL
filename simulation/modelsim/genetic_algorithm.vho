@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition"
 
--- DATE "09/25/2023 14:39:01"
+-- DATE "09/25/2023 14:47:47"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -2024,110 +2024,110 @@ SIGNAL \init_population_instance|datain[22]~23\ : std_logic;
 SIGNAL \init_population_instance|datain[23]~24_combout\ : std_logic;
 SIGNAL \init_population_instance|datain[22]~22_combout\ : std_logic;
 SIGNAL \init_population_instance|datain[21]~20_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\ : std_logic;
 SIGNAL \init_population_instance|datain[20]~18_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~7\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~7\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\ : std_logic;
 SIGNAL \init_population_instance|datain[19]~16_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~11\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~9\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~11\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\ : std_logic;
 SIGNAL \init_population_instance|datain[17]~12_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_i_data[1]~feeder_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~92_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~79_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~93_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~80_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~81_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~94_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~95_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~82_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[58]~87_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[59]~88_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~92_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~79_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~93_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~80_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~81_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~94_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~95_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~82_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[58]~87_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[59]~88_combout\ : std_logic;
 SIGNAL \init_population_instance|datain[16]~10_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_i_data[0]~feeder_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[57]~86_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[57]~86_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_seven_instance_2|Mux6~0_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_seven_instance_2|Mux5~0_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_seven_instance_2|Mux4~0_combout\ : std_logic;
@@ -2135,72 +2135,72 @@ SIGNAL \print_data_instance|bcd_seven_instance_2|Mux3~0_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_seven_instance_2|Mux2~0_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_seven_instance_2|Mux1~0_combout\ : std_logic;
 SIGNAL \print_data_instance|bcd_seven_instance_2|Mux0~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~37_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~36_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~44_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~64_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~50_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~62_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~37_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~36_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~44_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~64_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~50_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~62_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ : std_logic;
 SIGNAL \print_data_instance|bin_to_bcd_instance|bcd_dozens[1]~11_combout\ : std_logic;
 SIGNAL \print_data_instance|bin_to_bcd_instance|bcd_dozens[2]~12_combout\ : std_logic;
 SIGNAL \print_data_instance|bin_to_bcd_instance|bcd_dozens[3]~13_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~56_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~63_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~67_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~57_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~58_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~59_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~60_combout\ : std_logic;
-SIGNAL \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~61_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~56_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~63_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~67_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~57_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~58_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~59_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~60_combout\ : std_logic;
+SIGNAL \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~61_combout\ : std_logic;
 SIGNAL \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\ : std_logic;
 SIGNAL \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\ : std_logic;
 SIGNAL \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\ : std_logic;
@@ -30464,10 +30464,10 @@ PORT MAP (
 	q => \print_data_instance|bcd_i_data\(5));
 
 -- Location: LCCOMB_X72_Y24_N20
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ = \print_data_instance|bcd_i_data\(5) $ (VCC)
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ = CARRY(\print_data_instance|bcd_i_data\(5))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ = \print_data_instance|bcd_i_data\(5) $ (VCC)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ = CARRY(\print_data_instance|bcd_i_data\(5))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30477,17 +30477,17 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(5),
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\);
 
 -- Location: LCCOMB_X72_Y24_N22
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ = (\print_data_instance|bcd_i_data\(6) & 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ & VCC)) # (!\print_data_instance|bcd_i_data\(6) & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ = CARRY((!\print_data_instance|bcd_i_data\(6) & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ = (\print_data_instance|bcd_i_data\(6) & 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ & VCC)) # (!\print_data_instance|bcd_i_data\(6) & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ = CARRY((!\print_data_instance|bcd_i_data\(6) & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30497,18 +30497,18 @@ GENERIC MAP (
 PORT MAP (
 	datab => \print_data_instance|bcd_i_data\(6),
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\);
 
 -- Location: LCCOMB_X72_Y24_N24
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ = (\print_data_instance|bcd_i_data\(7) & 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ $ (GND))) # (!\print_data_instance|bcd_i_data\(7) & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ & VCC))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ = CARRY((\print_data_instance|bcd_i_data\(7) & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ = (\print_data_instance|bcd_i_data\(7) & 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ $ (GND))) # (!\print_data_instance|bcd_i_data\(7) & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ & VCC))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ = CARRY((\print_data_instance|bcd_i_data\(7) & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30518,14 +30518,14 @@ GENERIC MAP (
 PORT MAP (
 	datab => \print_data_instance|bcd_i_data\(7),
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~5\);
 
 -- Location: LCCOMB_X72_Y24_N26
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ = !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ = !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~5\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30533,14 +30533,14 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~5\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\);
 
 -- Location: LCCOMB_X73_Y24_N4
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30548,14 +30548,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\);
 
 -- Location: LCCOMB_X72_Y24_N14
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(7))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(7))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30563,15 +30563,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(7),
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\);
 
 -- Location: LCCOMB_X72_Y24_N10
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30579,14 +30579,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\);
 
 -- Location: LCCOMB_X72_Y24_N16
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(6))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(6))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30594,14 +30594,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(6),
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\);
 
 -- Location: LCCOMB_X72_Y24_N12
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\ = (\print_data_instance|bcd_i_data\(5) & \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\ = (\print_data_instance|bcd_i_data\(5) & \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30610,14 +30610,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(5),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\);
 
 -- Location: LCCOMB_X73_Y24_N10
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30625,9 +30625,9 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\);
 
 -- Location: FF_X68_Y30_N19
 \init_population_instance|datain[20]\ : dffeas
@@ -30697,9 +30697,9 @@ PORT MAP (
 	q => \print_data_instance|bcd_i_data\(4));
 
 -- Location: LCCOMB_X73_Y24_N20
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(4))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(4))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30707,14 +30707,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(4),
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60_combout\);
 
 -- Location: LCCOMB_X73_Y24_N22
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
 -- \print_data_instance|bcd_i_data\(4))
 
 -- pragma translate_off
@@ -30723,17 +30723,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(4),
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61_combout\);
 
 -- Location: LCCOMB_X72_Y24_N0
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30741,21 +30741,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~60_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[24]~61_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~60_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[24]~61_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\);
 
 -- Location: LCCOMB_X72_Y24_N2
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30763,22 +30763,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~58_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[25]~59_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~58_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[25]~59_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\);
 
 -- Location: LCCOMB_X72_Y24_N4
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30786,22 +30786,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~57_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[26]~56_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~57_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[26]~56_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\);
 
 -- Location: LCCOMB_X72_Y24_N6
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~7\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~7\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30809,17 +30809,17 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~55_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[27]~54_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~55_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[27]~54_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~7\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~5\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~7\);
 
 -- Location: LCCOMB_X72_Y24_N8
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~7\
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~7\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30827,15 +30827,15 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~7\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~7\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\);
 
 -- Location: LCCOMB_X72_Y24_N30
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bcd_i_data\(7)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bcd_i_data\(7)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30843,17 +30843,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
 	datad => \print_data_instance|bcd_i_data\(7),
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\);
 
 -- Location: LCCOMB_X72_Y23_N28
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30861,16 +30861,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\);
 
 -- Location: LCCOMB_X72_Y24_N28
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bcd_i_data\(6)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bcd_i_data\(6)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30878,17 +30878,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(6),
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\);
 
 -- Location: LCCOMB_X72_Y23_N2
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30896,16 +30896,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\);
 
 -- Location: LCCOMB_X72_Y24_N18
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bcd_i_data\(5))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bcd_i_data\(5))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30913,17 +30913,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
 	datac => \print_data_instance|bcd_i_data\(5),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\);
 
 -- Location: LCCOMB_X72_Y23_N0
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30931,14 +30931,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\);
 
 -- Location: LCCOMB_X72_Y23_N22
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\ = (\print_data_instance|bcd_i_data\(4) & \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\ = (\print_data_instance|bcd_i_data\(4) & \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30947,14 +30947,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \print_data_instance|bcd_i_data\(4),
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\);
 
 -- Location: LCCOMB_X72_Y23_N4
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -30962,9 +30962,9 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\);
 
 -- Location: FF_X68_Y30_N17
 \init_population_instance|datain[19]\ : dffeas
@@ -31034,10 +31034,10 @@ PORT MAP (
 	q => \print_data_instance|bcd_i_data\(3));
 
 -- Location: LCCOMB_X70_Y23_N20
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68_combout\ = (\print_data_instance|bcd_i_data\(3) & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68_combout\ = (\print_data_instance|bcd_i_data\(3) & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31046,13 +31046,13 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(3),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68_combout\);
 
 -- Location: LCCOMB_X70_Y23_N22
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67_combout\ = (\print_data_instance|bcd_i_data\(3) & \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67_combout\ = (\print_data_instance|bcd_i_data\(3) & \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31061,16 +31061,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(3),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67_combout\);
 
 -- Location: LCCOMB_X72_Y23_N10
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31078,21 +31078,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~68_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[32]~67_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~68_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[32]~67_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\);
 
 -- Location: LCCOMB_X72_Y23_N12
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31100,22 +31100,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~65_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[33]~66_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~65_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[33]~66_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\);
 
 -- Location: LCCOMB_X72_Y23_N14
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31123,22 +31123,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~64_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~64_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\);
 
 -- Location: LCCOMB_X72_Y23_N16
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31146,22 +31146,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~63_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~63_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~5\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\);
 
 -- Location: LCCOMB_X72_Y23_N18
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ & 
--- ((((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\))))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ & ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\) # 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\) # (GND))))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\) # 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ & 
+-- ((((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\))))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ & ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\) # 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\) # (GND))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~9\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\) # 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31169,17 +31169,17 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~62_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~62_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~7\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~9\);
 
 -- Location: LCCOMB_X72_Y23_N20
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ = !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9\
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ = !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~9\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31187,15 +31187,15 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~9\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\);
 
 -- Location: LCCOMB_X72_Y23_N8
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31203,17 +31203,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[36]~96_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[36]~96_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\);
 
 -- Location: LCCOMB_X73_Y23_N28
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31221,16 +31221,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\);
 
 -- Location: LCCOMB_X72_Y23_N26
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31238,17 +31238,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[35]~97_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[35]~97_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\);
 
 -- Location: LCCOMB_X72_Y23_N30
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\ = (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31256,15 +31256,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\);
 
 -- Location: LCCOMB_X73_Y23_N22
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31272,16 +31272,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\);
 
 -- Location: LCCOMB_X72_Y23_N24
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31289,17 +31289,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[34]~98_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[34]~98_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\);
 
 -- Location: LCCOMB_X73_Y23_N4
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31307,16 +31307,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\);
 
 -- Location: LCCOMB_X72_Y23_N6
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & (\print_data_instance|bcd_i_data\(4))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & (\print_data_instance|bcd_i_data\(4))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31324,17 +31324,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
 	datac => \print_data_instance|bcd_i_data\(4),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\);
 
 -- Location: LCCOMB_X70_Y23_N12
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31342,15 +31342,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\);
 
 -- Location: LCCOMB_X70_Y23_N14
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\ = (\print_data_instance|bcd_i_data\(3) & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\ = (\print_data_instance|bcd_i_data\(3) & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31359,14 +31359,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(3),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\);
 
 -- Location: LCCOMB_X73_Y23_N30
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76_combout\ = (\print_data_instance|bcd_i_data\(2) & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76_combout\ = (\print_data_instance|bcd_i_data\(2) & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31375,14 +31375,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(2),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76_combout\);
 
 -- Location: LCCOMB_X70_Y23_N24
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75_combout\ = (\print_data_instance|bcd_i_data\(2) & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75_combout\ = (\print_data_instance|bcd_i_data\(2) & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31391,16 +31391,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(2),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75_combout\);
 
 -- Location: LCCOMB_X73_Y23_N8
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31408,21 +31408,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~76_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[40]~75_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~76_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[40]~75_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\);
 
 -- Location: LCCOMB_X73_Y23_N10
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31430,22 +31430,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~74_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[41]~73_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~74_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[41]~73_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\);
 
 -- Location: LCCOMB_X73_Y23_N12
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31453,22 +31453,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~72_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~72_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\);
 
 -- Location: LCCOMB_X73_Y23_N14
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~6\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~6\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31476,22 +31476,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~71_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~71_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~5\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\);
 
 -- Location: LCCOMB_X73_Y23_N16
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~8\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ & 
--- ((((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\))))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ & ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\) # 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\) # (GND))))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\) # 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ & 
+-- ((((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\))))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ & ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\) # 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\) # (GND))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\) # 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31499,22 +31499,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~70_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~70_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~7\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\);
 
 -- Location: LCCOMB_X73_Y23_N18
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~10\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~11\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~11\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31522,17 +31522,17 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~69_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~69_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~11\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~9\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~11\);
 
 -- Location: LCCOMB_X73_Y23_N20
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ = \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~11\
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ = \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~11\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31540,14 +31540,14 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~11\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~11\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\);
 
 -- Location: LCCOMB_X70_Y23_N26
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\ = (\print_data_instance|bcd_i_data\(2) & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\ = (\print_data_instance|bcd_i_data\(2) & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31556,14 +31556,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(2),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\);
 
 -- Location: LCCOMB_X74_Y23_N2
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31571,9 +31571,9 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\);
 
 -- Location: FF_X68_Y30_N13
 \init_population_instance|datain[17]\ : dffeas
@@ -31656,10 +31656,10 @@ PORT MAP (
 	q => \print_data_instance|bcd_i_data\(1));
 
 -- Location: LCCOMB_X70_Y23_N28
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78_combout\ = (\print_data_instance|bcd_i_data\(1) & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78_combout\ = (\print_data_instance|bcd_i_data\(1) & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31668,14 +31668,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(1),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78_combout\);
 
 -- Location: LCCOMB_X70_Y23_N18
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77_combout\ = (\print_data_instance|bcd_i_data\(1) & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77_combout\ = (\print_data_instance|bcd_i_data\(1) & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31684,16 +31684,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(1),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77_combout\);
 
 -- Location: LCCOMB_X74_Y23_N10
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31701,21 +31701,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~78_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[48]~77_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~78_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[48]~77_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\);
 
 -- Location: LCCOMB_X74_Y23_N12
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31723,19 +31723,19 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\);
 
 -- Location: LCCOMB_X73_Y23_N0
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~92\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~92\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~92_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~92_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31743,17 +31743,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[45]~89_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~92_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[45]~89_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~92_combout\);
 
 -- Location: LCCOMB_X73_Y23_N6
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~79\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~79\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~79_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~79_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31761,16 +31761,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~79_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~79_combout\);
 
 -- Location: LCCOMB_X73_Y23_N26
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~93\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~93\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~93_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~93_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31778,17 +31778,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[44]~90_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~93_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[44]~90_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~93_combout\);
 
 -- Location: LCCOMB_X74_Y23_N4
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~80\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~80\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~80_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~80_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31796,15 +31796,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~80_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~80_combout\);
 
 -- Location: LCCOMB_X74_Y23_N30
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~81\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~81\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~81_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~81_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31812,16 +31812,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~81_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~81_combout\);
 
 -- Location: LCCOMB_X73_Y23_N24
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~94\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~94\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~94_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~94_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31829,18 +31829,18 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[43]~91_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~94_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[43]~91_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~94_combout\);
 
 -- Location: LCCOMB_X73_Y23_N2
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~95\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~95\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~95_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~95_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31848,17 +31848,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[42]~99_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~95_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[42]~99_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~95_combout\);
 
 -- Location: LCCOMB_X74_Y23_N0
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~82\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~82\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~82_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~82_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31866,16 +31866,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~82_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~82_combout\);
 
 -- Location: LCCOMB_X70_Y23_N4
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & (\print_data_instance|bcd_i_data\(3))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & (\print_data_instance|bcd_i_data\(3))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31884,16 +31884,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(3),
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\);
 
 -- Location: LCCOMB_X74_Y23_N28
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31901,19 +31901,19 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\);
 
 -- Location: LCCOMB_X74_Y23_N14
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31921,18 +31921,18 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~5\);
 
 -- Location: LCCOMB_X74_Y23_N16
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[4]~7\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~95_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~82_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~95_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~82_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31940,17 +31940,17 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~95_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[51]~82_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~95_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[51]~82_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~5\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~5\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\);
 
 -- Location: LCCOMB_X74_Y23_N18
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[5]~9\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~81_combout\) # 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~94_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~81_combout\) # 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~94_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31958,17 +31958,17 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~81_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[52]~94_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~81_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[52]~94_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[4]~7_cout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\);
 
 -- Location: LCCOMB_X74_Y23_N20
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[6]~11\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~93_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~80_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~93_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~80_combout\ & !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31976,17 +31976,17 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~93_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[53]~80_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~93_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[53]~80_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[5]~9_cout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\);
 
 -- Location: LCCOMB_X74_Y23_N22
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[7]~13\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~92_combout\) # 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~79_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\ = CARRY((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~92_combout\) # 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~79_combout\) # (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31994,16 +31994,16 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~92_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[54]~79_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~92_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[54]~79_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[6]~11_cout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\);
 
 -- Location: LCCOMB_X74_Y23_N24
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ = !\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ = !\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32011,15 +32011,15 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[7]~13_cout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\);
 
 -- Location: LCCOMB_X74_Y23_N8
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[58]~87\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[58]~87\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[58]~87_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[58]~87_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\) # (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32027,11 +32027,11 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~85_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[49]~84_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[58]~87_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~85_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[49]~84_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[58]~87_combout\);
 
 -- Location: FF_X74_Y23_N9
 \print_data_instance|bin_to_bcd_instance|bcd_units[2]\ : dffeas
@@ -32042,18 +32042,18 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
-	d => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[58]~87_combout\,
+	d => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[58]~87_combout\,
 	clrn => \ALT_INV_reset~input_o\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \print_data_instance|bin_to_bcd_instance|bcd_units\(2));
 
 -- Location: LCCOMB_X74_Y23_N26
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[59]~88\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[59]~88\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[59]~88_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & (((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[59]~88_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\) # ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & (((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32061,11 +32061,11 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~100_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[50]~83_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[59]~88_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~100_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[50]~83_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[59]~88_combout\);
 
 -- Location: FF_X74_Y23_N27
 \print_data_instance|bin_to_bcd_instance|bcd_units[3]\ : dffeas
@@ -32076,7 +32076,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
-	d => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[59]~88_combout\,
+	d => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[59]~88_combout\,
 	clrn => \ALT_INV_reset~input_o\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -32179,11 +32179,11 @@ PORT MAP (
 	q => \print_data_instance|bin_to_bcd_instance|bcd_units\(0));
 
 -- Location: LCCOMB_X74_Y23_N6
-\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[57]~86\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[57]~86\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[57]~86_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
--- (\print_data_instance|bcd_i_data\(1))) # (!\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[57]~86_combout\ = (\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
+-- (\print_data_instance|bcd_i_data\(1))) # (!\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32191,10 +32191,10 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	datac => \print_data_instance|bcd_i_data\(1),
-	datad => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[57]~86_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|add_sub_7_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[57]~86_combout\);
 
 -- Location: FF_X74_Y23_N7
 \print_data_instance|bin_to_bcd_instance|bcd_units[1]\ : dffeas
@@ -32205,7 +32205,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
-	d => \print_data_instance|bin_to_bcd_instance|Mod0|auto_generated|divider|divider|StageOut[57]~86_combout\,
+	d => \print_data_instance|bin_to_bcd_instance|Mod1|auto_generated|divider|divider|StageOut[57]~86_combout\,
 	clrn => \ALT_INV_reset~input_o\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -32440,10 +32440,10 @@ PORT MAP (
 	q => \print_data_instance|bcd_seven_instance_2|seven_o\(6));
 
 -- Location: LCCOMB_X74_Y21_N24
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ = \print_data_instance|bcd_i_data\(5) $ (VCC)
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ = CARRY(\print_data_instance|bcd_i_data\(5))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\ = \print_data_instance|bcd_i_data\(5) $ (VCC)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ = CARRY(\print_data_instance|bcd_i_data\(5))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32453,17 +32453,17 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(5),
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\);
 
 -- Location: LCCOMB_X74_Y21_N26
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ = (\print_data_instance|bcd_i_data\(6) & 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ & VCC)) # (!\print_data_instance|bcd_i_data\(6) & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ = CARRY((!\print_data_instance|bcd_i_data\(6) & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\ = (\print_data_instance|bcd_i_data\(6) & 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\ & VCC)) # (!\print_data_instance|bcd_i_data\(6) & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ = CARRY((!\print_data_instance|bcd_i_data\(6) & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32473,18 +32473,18 @@ GENERIC MAP (
 PORT MAP (
 	datab => \print_data_instance|bcd_i_data\(6),
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\);
 
 -- Location: LCCOMB_X74_Y21_N28
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ = (\print_data_instance|bcd_i_data\(7) & 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ $ (GND))) # (!\print_data_instance|bcd_i_data\(7) & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ & VCC))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ = CARRY((\print_data_instance|bcd_i_data\(7) & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\ = (\print_data_instance|bcd_i_data\(7) & 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ $ (GND))) # (!\print_data_instance|bcd_i_data\(7) & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\ & VCC))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~5\ = CARRY((\print_data_instance|bcd_i_data\(7) & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32494,14 +32494,14 @@ GENERIC MAP (
 PORT MAP (
 	datab => \print_data_instance|bcd_i_data\(7),
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~5\);
 
 -- Location: LCCOMB_X74_Y21_N30
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ = !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ = !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~5\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32509,14 +32509,14 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~5\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~5\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\);
 
 -- Location: LCCOMB_X74_Y21_N10
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~37\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~37\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~37_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~37_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32524,14 +32524,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~37_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~37_combout\);
 
 -- Location: LCCOMB_X74_Y21_N4
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~36\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~36\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~36_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(7))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~36_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(7))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32539,14 +32539,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(7),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~36_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~36_combout\);
 
 -- Location: LCCOMB_X74_Y21_N12
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(6))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(6))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32554,15 +32554,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(6),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\);
 
 -- Location: LCCOMB_X73_Y21_N4
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32570,14 +32570,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\);
 
 -- Location: LCCOMB_X74_Y21_N6
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\ = (\print_data_instance|bcd_i_data\(5) & \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\ = (\print_data_instance|bcd_i_data\(5) & \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32586,14 +32586,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(5),
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\);
 
 -- Location: LCCOMB_X74_Y21_N0
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32601,14 +32601,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\);
 
 -- Location: LCCOMB_X73_Y21_N16
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
 -- \print_data_instance|bcd_i_data\(4))
 
 -- pragma translate_off
@@ -32617,14 +32617,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(4),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43_combout\);
 
 -- Location: LCCOMB_X73_Y21_N6
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(4))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & \print_data_instance|bcd_i_data\(4))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32632,17 +32632,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datad => \print_data_instance|bcd_i_data\(4),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42_combout\);
 
 -- Location: LCCOMB_X74_Y21_N14
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32650,21 +32650,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~43_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[15]~42_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~43_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[15]~42_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\);
 
 -- Location: LCCOMB_X74_Y21_N16
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\ & !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\ & !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32672,22 +32672,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~40_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[16]~41_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~40_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[16]~41_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\);
 
 -- Location: LCCOMB_X74_Y21_N18
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32695,18 +32695,18 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~38_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[17]~39_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~38_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[17]~39_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~5\);
 
 -- Location: LCCOMB_X74_Y21_N20
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[4]~7\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~37_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~36_combout\ & !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~37_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~36_combout\ & !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32714,16 +32714,16 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~37_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[18]~36_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~37_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[18]~36_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~5\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~5\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\);
 
 -- Location: LCCOMB_X74_Y21_N22
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32731,15 +32731,15 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\);
 
 -- Location: LCCOMB_X74_Y21_N8
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bcd_i_data\(5))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bcd_i_data\(5))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32747,17 +32747,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
 	datac => \print_data_instance|bcd_i_data\(5),
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\);
 
 -- Location: LCCOMB_X74_Y19_N0
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32765,14 +32765,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\);
 
 -- Location: LCCOMB_X74_Y19_N26
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\ = (\print_data_instance|bcd_i_data\(4) & \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\ = (\print_data_instance|bcd_i_data\(4) & \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32781,14 +32781,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(4),
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\);
 
 -- Location: LCCOMB_X74_Y19_N28
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32796,14 +32796,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\);
 
 -- Location: LCCOMB_X74_Y19_N22
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48_combout\ = (\print_data_instance|bcd_i_data\(3) & \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48_combout\ = (\print_data_instance|bcd_i_data\(3) & \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32812,14 +32812,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(3),
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48_combout\);
 
 -- Location: LCCOMB_X74_Y19_N24
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49_combout\ = (\print_data_instance|bcd_i_data\(3) & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49_combout\ = (\print_data_instance|bcd_i_data\(3) & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32828,16 +32828,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(3),
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49_combout\);
 
 -- Location: LCCOMB_X74_Y19_N4
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32845,21 +32845,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~48_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[20]~49_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~48_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[20]~49_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\);
 
 -- Location: LCCOMB_X74_Y19_N6
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\ & !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\ & !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32867,22 +32867,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~46_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[21]~47_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~46_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[21]~47_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\);
 
 -- Location: LCCOMB_X74_Y19_N8
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32890,18 +32890,18 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~45_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~45_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~5\);
 
 -- Location: LCCOMB_X74_Y19_N30
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~44\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~44\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~44_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~44_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32909,16 +32909,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~44_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~44_combout\);
 
 -- Location: LCCOMB_X74_Y21_N2
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~64\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~64\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~64_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bcd_i_data\(6)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~64_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\print_data_instance|bcd_i_data\(6)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32926,17 +32926,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout\,
 	datad => \print_data_instance|bcd_i_data\(6),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~64_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~64_combout\);
 
 -- Location: LCCOMB_X74_Y19_N10
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~44_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~64_combout\ & !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~44_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~64_combout\ & !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32944,16 +32944,16 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~44_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[23]~64_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~44_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[23]~64_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~5\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~5\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\);
 
 -- Location: LCCOMB_X74_Y19_N12
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32961,14 +32961,14 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\);
 
 -- Location: LCCOMB_X74_Y19_N2
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~50\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~50\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~50_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~50_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32976,16 +32976,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~50_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~50_combout\);
 
 -- Location: LCCOMB_X74_Y19_N16
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~62\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~62\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~62_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\) # ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~62_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\) # ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32993,17 +32993,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[22]~65_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~62_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[22]~65_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~62_combout\);
 
 -- Location: LCCOMB_X73_Y19_N12
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33011,16 +33011,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\);
 
 -- Location: LCCOMB_X74_Y19_N18
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & (\print_data_instance|bcd_i_data\(4))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & (\print_data_instance|bcd_i_data\(4))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33028,16 +33028,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
 	datab => \print_data_instance|bcd_i_data\(4),
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\);
 
 -- Location: LCCOMB_X73_Y19_N10
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & \print_data_instance|bcd_i_data\(3))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & \print_data_instance|bcd_i_data\(3))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33045,15 +33045,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
 	datad => \print_data_instance|bcd_i_data\(3),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\);
 
 -- Location: LCCOMB_X73_Y19_N28
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33061,14 +33061,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\);
 
 -- Location: LCCOMB_X73_Y19_N26
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & \print_data_instance|bcd_i_data\(2))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & \print_data_instance|bcd_i_data\(2))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33076,14 +33076,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
 	datad => \print_data_instance|bcd_i_data\(2),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54_combout\);
 
 -- Location: LCCOMB_X73_Y19_N8
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55_combout\ = (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
 -- \print_data_instance|bcd_i_data\(2))
 
 -- pragma translate_off
@@ -33092,17 +33092,17 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
 	datad => \print_data_instance|bcd_i_data\(2),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55_combout\);
 
 -- Location: LCCOMB_X73_Y19_N14
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~0\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55_combout\))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ = (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33110,21 +33110,21 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~54_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[25]~55_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~54_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[25]~55_combout\,
 	datad => VCC,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\);
 
 -- Location: LCCOMB_X73_Y19_N16
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~2\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\)))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\ & !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\ & (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\ & !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33132,22 +33132,22 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~52_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[26]~53_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~52_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[26]~53_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~1\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\);
 
 -- Location: LCCOMB_X73_Y19_N18
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~4\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
--- (((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\)))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\)))))
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\) # (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
+-- (((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\)))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & ((((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~5\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\) # (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33155,18 +33155,18 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~51_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~51_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~3\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~5\);
 
 -- Location: LCCOMB_X73_Y19_N20
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[4]~7\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~50_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~62_combout\ & !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\)))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~50_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~62_combout\ & !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33174,16 +33174,16 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~50_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[28]~62_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~50_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[28]~62_combout\,
 	datad => VCC,
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~5\,
-	cout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~5\,
+	cout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\);
 
 -- Location: LCCOMB_X73_Y19_N22
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ = \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33191,13 +33191,13 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	cin => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\);
+	cin => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\);
 
 -- Location: LCCOMB_X72_Y19_N28
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[1]~11\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[1]~11_combout\ = !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[1]~11_combout\ = !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33205,7 +33205,7 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
 	combout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[1]~11_combout\);
 
 -- Location: FF_X72_Y19_N29
@@ -33226,7 +33226,7 @@ PORT MAP (
 -- Location: LCCOMB_X74_Y19_N20
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[2]~12\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[2]~12_combout\ = !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[2]~12_combout\ = !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33234,7 +33234,7 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
 	combout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[2]~12_combout\);
 
 -- Location: FF_X74_Y19_N21
@@ -33255,7 +33255,7 @@ PORT MAP (
 -- Location: LCCOMB_X74_Y19_N14
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[3]~13\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[3]~13_combout\ = !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[3]~13_combout\ = !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33263,7 +33263,7 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
 	combout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[3]~13_combout\);
 
 -- Location: FF_X74_Y19_N15
@@ -33282,10 +33282,10 @@ PORT MAP (
 	q => \print_data_instance|bin_to_bcd_instance|bcd_dozens\(3));
 
 -- Location: LCCOMB_X72_Y19_N26
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~56\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~56\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~56_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~56_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33293,16 +33293,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~56_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~56_combout\);
 
 -- Location: LCCOMB_X73_Y19_N24
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~63\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~63\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~63_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~63_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\) # ((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33310,18 +33310,18 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[27]~66_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~63_combout\);
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[27]~66_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~63_combout\);
 
 -- Location: LCCOMB_X73_Y19_N4
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~67\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~67\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~67_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & 
--- ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & (\print_data_instance|bcd_i_data\(3))) # 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\)))))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~67_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & 
+-- ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & (\print_data_instance|bcd_i_data\(3))) # 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33330,16 +33330,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \print_data_instance|bcd_i_data\(3),
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~67_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~67_combout\);
 
 -- Location: LCCOMB_X72_Y19_N4
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~57\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~57\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~57_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~57_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33347,14 +33347,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~57_combout\);
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~57_combout\);
 
 -- Location: LCCOMB_X73_Y19_N30
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~58\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~58\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~58_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & \print_data_instance|bcd_i_data\(2))
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~58_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\ & \print_data_instance|bcd_i_data\(2))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33362,15 +33362,15 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
 	datad => \print_data_instance|bcd_i_data\(2),
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~58_combout\);
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~58_combout\);
 
 -- Location: LCCOMB_X72_Y19_N24
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~59\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~59\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~59_combout\ = (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~59_combout\ = (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\ & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33378,14 +33378,14 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~59_combout\);
+	datac => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout\,
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~59_combout\);
 
 -- Location: LCCOMB_X72_Y19_N22
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~60\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~60\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~60_combout\ = (\print_data_instance|bcd_i_data\(1) & \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~60_combout\ = (\print_data_instance|bcd_i_data\(1) & \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33394,14 +33394,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(1),
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~60_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~60_combout\);
 
 -- Location: LCCOMB_X72_Y19_N16
-\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~61\ : cycloneive_lcell_comb
+\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~61\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~61_combout\ = (\print_data_instance|bcd_i_data\(1) & 
--- !\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
+-- \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~61_combout\ = (\print_data_instance|bcd_i_data\(1) & 
+-- !\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33410,14 +33410,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datac => \print_data_instance|bcd_i_data\(1),
-	datad => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
-	combout => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~61_combout\);
+	datad => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout\,
+	combout => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~61_combout\);
 
 -- Location: LCCOMB_X72_Y19_N6
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~60_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~61_combout\))
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\ = CARRY((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~60_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~61_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33425,16 +33425,16 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~60_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[30]~61_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~60_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[30]~61_combout\,
 	datad => VCC,
 	cout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\);
 
 -- Location: LCCOMB_X72_Y19_N8
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~58_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~59_combout\ & !\print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\)))
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~58_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~59_combout\ & !\print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33442,8 +33442,8 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~58_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[31]~59_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~58_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[31]~59_combout\,
 	datad => VCC,
 	cin => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~2_cout\,
 	cout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\);
@@ -33451,8 +33451,8 @@ PORT MAP (
 -- Location: LCCOMB_X72_Y19_N10
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\ & ((\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~67_combout\) # 
--- (\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~57_combout\))))
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\ & ((\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~67_combout\) # 
+-- (\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~57_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33460,8 +33460,8 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~67_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[32]~57_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~67_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[32]~57_combout\,
 	datad => VCC,
 	cin => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~4_cout\,
 	cout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\);
@@ -33469,8 +33469,8 @@ PORT MAP (
 -- Location: LCCOMB_X72_Y19_N12
 \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~8\ : cycloneive_lcell_comb
 -- Equation(s):
--- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~8_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~56_combout\ & 
--- (!\print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~63_combout\ & !\print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\)))
+-- \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~8_cout\ = CARRY((!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~56_combout\ & 
+-- (!\print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~63_combout\ & !\print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -33478,8 +33478,8 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~56_combout\,
-	datab => \print_data_instance|bin_to_bcd_instance|Div0|auto_generated|divider|divider|StageOut[33]~63_combout\,
+	dataa => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~56_combout\,
+	datab => \print_data_instance|bin_to_bcd_instance|Div2|auto_generated|divider|divider|StageOut[33]~63_combout\,
 	datad => VCC,
 	cin => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~6_cout\,
 	cout => \print_data_instance|bin_to_bcd_instance|bcd_dozens[0]~8_cout\);

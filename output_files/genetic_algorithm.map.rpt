@@ -1,5 +1,5 @@
 Analysis & Synthesis report for genetic_algorithm
-Mon Sep 25 14:38:17 2023
+Mon Sep 25 14:47:05 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -23,16 +23,18 @@ Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
  15. Registers Packed Into Inferred Megafunctions
  16. Multiplexer Restructuring Statistics (Restructuring Performed)
  17. Source assignments for sync_ram:ram_instance|altsyncram:ram_rtl_0|altsyncram_hi41:auto_generated
- 18. Parameter Settings for Inferred Entity Instance: sync_ram:ram_instance|altsyncram:ram_rtl_0
- 19. Parameter Settings for Inferred Entity Instance: Init_Population:init_population_instance|lpm_mult:Mult0
- 20. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0
- 21. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0
- 22. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|lpm_divide:Mod0
- 23. altsyncram Parameter Settings by Entity Instance
- 24. lpm_mult Parameter Settings by Entity Instance
- 25. Post-Synthesis Netlist Statistics for Top Partition
- 26. Elapsed Time Per Partition
- 27. Analysis & Synthesis Messages
+ 18. Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance
+ 19. Parameter Settings for Inferred Entity Instance: sync_ram:ram_instance|altsyncram:ram_rtl_0
+ 20. Parameter Settings for Inferred Entity Instance: Init_Population:init_population_instance|lpm_mult:Mult0
+ 21. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1
+ 22. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2
+ 23. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|lpm_divide:Mod0
+ 24. altsyncram Parameter Settings by Entity Instance
+ 25. lpm_mult Parameter Settings by Entity Instance
+ 26. Port Connectivity Checks: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance"
+ 27. Post-Synthesis Netlist Statistics for Top Partition
+ 28. Elapsed Time Per Partition
+ 29. Analysis & Synthesis Messages
 
 
 
@@ -59,7 +61,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Sep 25 14:38:17 2023          ;
+; Analysis & Synthesis Status        ; Successful - Mon Sep 25 14:47:05 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; genetic_algorithm                              ;
 ; Top-level Entity Name              ; genetic_algorithm                              ;
@@ -299,14 +301,14 @@ https://fpgasoftware.intel.com/eula.
 ;       |bcd_seven_seg:bcd_seven_instance_3|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_3                                                                                               ; bcd_seven_seg       ; work         ;
 ;       |bcd_seven_seg:bcd_seven_instance|          ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance                                                                                                 ; bcd_seven_seg       ; work         ;
 ;       |bin_to_bcd:bin_to_bcd_instance|            ; 136 (8)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance                                                                                                   ; bin_to_bcd          ; work         ;
-;          |lpm_divide:Div0|                        ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0                                                                                   ; lpm_divide          ; work         ;
-;             |lpm_divide_jhm:auto_generated|       ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0|lpm_divide_jhm:auto_generated                                                     ; lpm_divide_jhm      ; work         ;
-;                |sign_div_unsign_bkh:divider|      ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider                         ; sign_div_unsign_bkh ; work         ;
-;                   |alt_u_div_a4f:divider|         ; 51 (51)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_a4f:divider   ; alt_u_div_a4f       ; work         ;
-;          |lpm_divide:Mod0|                        ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0                                                                                   ; lpm_divide          ; work         ;
-;             |lpm_divide_q9m:auto_generated|       ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0|lpm_divide_q9m:auto_generated                                                     ; lpm_divide_q9m      ; work         ;
-;                |sign_div_unsign_fkh:divider|      ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider                         ; sign_div_unsign_fkh ; work         ;
-;                   |alt_u_div_i4f:divider|         ; 77 (77)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_i4f:divider   ; alt_u_div_i4f       ; work         ;
+;          |lpm_divide:Div2|                        ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2                                                                                   ; lpm_divide          ; work         ;
+;             |lpm_divide_jhm:auto_generated|       ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated                                                     ; lpm_divide_jhm      ; work         ;
+;                |sign_div_unsign_bkh:divider|      ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider                         ; sign_div_unsign_bkh ; work         ;
+;                   |alt_u_div_a4f:divider|         ; 51 (51)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_a4f:divider   ; alt_u_div_a4f       ; work         ;
+;          |lpm_divide:Mod1|                        ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1                                                                                   ; lpm_divide          ; work         ;
+;             |lpm_divide_q9m:auto_generated|       ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated                                                     ; lpm_divide_q9m      ; work         ;
+;                |sign_div_unsign_fkh:divider|      ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider                         ; sign_div_unsign_fkh ; work         ;
+;                   |alt_u_div_i4f:divider|         ; 77 (77)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_i4f:divider   ; alt_u_div_i4f       ; work         ;
 ;       |lpm_divide:Mod0|                           ; 778 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0                                                                                                                  ; lpm_divide          ; work         ;
 ;          |lpm_divide_cqo:auto_generated|          ; 778 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated                                                                                    ; lpm_divide_cqo      ; work         ;
 ;             |abs_divider_4dg:divider|             ; 778 (58)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider                                                            ; abs_divider_4dg     ; work         ;
@@ -440,6 +442,16 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+------------------------------------+
 
 
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; num_bin_size   ; 8     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: sync_ram:ram_instance|altsyncram:ram_rtl_0 ;
 +------------------------------------+----------------------+---------------------------------+
@@ -537,7 +549,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0 ;
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1 ;
 +------------------------+----------------+--------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                                                 ;
 +------------------------+----------------+--------------------------------------------------------------------------------------+
@@ -560,7 +572,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0 ;
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2 ;
 +------------------------+----------------+--------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                                                 ;
 +------------------------+----------------+--------------------------------------------------------------------------------------+
@@ -645,6 +657,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------+---------------------------------------------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance"                               ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; bcd_thousands ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; bcd_hundreds  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -679,7 +701,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -689,7 +711,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Mon Sep 25 14:37:56 2023
+    Info: Processing started: Mon Sep 25 14:46:49 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off genetic_algorithm -c genetic_algorithm
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -710,7 +732,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file sync_ra
     Info (12022): Found design unit 1: sync_ram-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd Line: 16
     Info (12023): Found entity 1: sync_ram File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file bin_to_bcd.vhd
-    Info (12022): Found design unit 1: bin_to_bcd-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 16
+    Info (12022): Found design unit 1: bin_to_bcd-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 21
     Info (12023): Found entity 1: bin_to_bcd File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 7
 Info (12127): Elaborating entity "genetic_algorithm" for the top level hierarchy
 Warning (10540): VHDL Signal Declaration warning at genetic_algorithm.vhd(36): used explicit default value for signal "done_print" because signal was never assigned a value File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 36
@@ -718,6 +740,8 @@ Info (12128): Elaborating entity "sync_ram" for hierarchy "sync_ram:ram_instance
 Info (12128): Elaborating entity "Init_Population" for hierarchy "Init_Population:init_population_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 92
 Warning (10036): Verilog HDL or VHDL warning at Init_Population.vhd(23): object "start" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 23
 Info (12128): Elaborating entity "Print_data" for hierarchy "Print_data:print_data_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 103
+Warning (10036): Verilog HDL or VHDL warning at Print_data.vhd(20): object "bcd_i_thousands" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 20
+Warning (10036): Verilog HDL or VHDL warning at Print_data.vhd(20): object "bcd_i_hundreds" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 20
 Warning (10036): Verilog HDL or VHDL warning at Print_data.vhd(22): object "input_data_route_old" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 22
 Warning (10492): VHDL Process Statement warning at Print_data.vhd(130): signal "input_data_route" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 130
 Info (12128): Elaborating entity "bin_to_bcd" for hierarchy "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 54
@@ -735,8 +759,8 @@ Info (19000): Inferred 1 megafunctions from design logic
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
 Info (278001): Inferred 4 megafunctions from design logic
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Init_Population:init_population_instance|Mult0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 69
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 28
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Div0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 27
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Div2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 142
 Info (12130): Elaborated megafunction instantiation "sync_ram:ram_instance|altsyncram:ram_rtl_0"
 Info (12133): Instantiated megafunction "sync_ram:ram_instance|altsyncram:ram_rtl_0" with the following parameter:
@@ -775,8 +799,8 @@ Info (12131): Elaborated megafunction instantiation "Init_Population:init_popula
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_fkh.tdf
     Info (12023): Found entity 1: add_sub_fkh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/add_sub_fkh.tdf Line: 23
 Info (12131): Elaborated megafunction instantiation "Init_Population:init_population_instance|lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "Init_Population:init_population_instance|lpm_mult:Mult0" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/lpm_mult.tdf Line: 352
-Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 28
-Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 28
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "8"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -791,8 +815,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/add_
     Info (12023): Found entity 1: add_sub_7pc File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/add_sub_7pc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
     Info (12023): Found entity 1: add_sub_8pc File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/add_sub_8pc.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 27
-Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 27
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -831,10 +855,10 @@ Info (21057): Implemented 1516 device resources after synthesis - the final reso
     Info (21059): Implemented 28 output pins
     Info (21061): Implemented 1462 logic cells
     Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4860 megabytes
-    Info: Processing ended: Mon Sep 25 14:38:17 2023
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:23
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4850 megabytes
+    Info: Processing ended: Mon Sep 25 14:47:05 2023
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:25
 
 
