@@ -4,17 +4,17 @@ use ieee.numeric_std.all;
 
 entity bcd_seven_seg is
     port (
-        clock_i : in  std_logic;
-        bcd_i   : in  std_logic_vector(3 downto 0);
-        seven_o : out std_logic_vector(6 downto 0)
+        clock       : in  std_logic;
+        bcd_i       : in  std_logic_vector(3 downto 0);
+        seven_o     : out std_logic_vector(6 downto 0)
     );
 end bcd_seven_seg;
 
 architecture rtl of bcd_seven_seg is
 begin
-    process (clock_i)
+    process (clock)
     begin
-        if rising_edge(clock_i) then
+        if rising_edge(clock) then
             case bcd_i is
                 when "0000" => seven_o <= "0000001"; -- 0
                 when "0001" => seven_o <= "1001111"; -- 1

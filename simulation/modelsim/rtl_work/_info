@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/simulation/modelsim
 Ebcd_seven_seg
-Z1 w1695364345
+Z1 w1695521226
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,13 +18,13 @@ Z5 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd
 Z6 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd
 l0
 L5
-VS?^WFA<o3QIdb9]LCj>7z0
-!s100 VD=2lIDWI6bhXBTHMlK<71
+VoNiHUY<?;DXjhSP6g@9JH3
+!s100 i[a9PVfPL^]Ra=iBVhM>a0
 Z7 OV;C;10.5b;63
 31
-Z8 !s110 1695513295
+Z8 !s110 1695524688
 !i10b 1
-Z9 !s108 1695513295.000000
+Z9 !s108 1695524688.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd|
 Z11 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Artl
 R2
 R3
 R4
-DEx4 work 13 bcd_seven_seg 0 22 S?^WFA<o3QIdb9]LCj>7z0
+DEx4 work 13 bcd_seven_seg 0 22 oNiHUY<?;DXjhSP6g@9JH3
 l14
 L13
-V3c@4na_lPhEUQNlDa5JOd0
-!s100 :Rm?0<Ta;Rb]I<`W?DgeZ3
+V]0fG12BQjSc`3SPfDc@6P1
+!s100 oW><80fhjaJoUoj?RMS=J0
 R7
 31
 R8
@@ -50,7 +50,7 @@ R11
 R12
 R13
 Ebin_to_bcd
-Z14 w1695507279
+Z14 w1695523664
 Z15 DPx4 work 8 my_types 0 22 4g?JEfhhcgY]=208V@R7m1
 R2
 R3
@@ -60,13 +60,13 @@ Z16 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd
 Z17 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd
 l0
 L7
-VmP6>KCeb[=R2l:d>AUTJ_0
-!s100 =m<W`^J`S>W4CK0nF<;<L2
+V0bZYHj=UzJj;X=GmaQPeL3
+!s100 KC36JPOF]ZFBT0K6lHV`00
 R7
 31
-Z18 !s110 1695513296
+Z18 !s110 1695524689
 !i10b 1
-Z19 !s108 1695513296.000000
+Z19 !s108 1695524689.000000
 Z20 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd|
 Z21 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd|
 !i113 1
@@ -77,11 +77,11 @@ R15
 R2
 R3
 R4
-DEx4 work 10 bin_to_bcd 0 22 mP6>KCeb[=R2l:d>AUTJ_0
-l17
-L15
-V0EIP:4O7d3K6HoI4`UFjm3
-!s100 IYL@>HTF5zC>9bW9VO=A<2
+DEx4 work 10 bin_to_bcd 0 22 0bZYHj=UzJj;X=GmaQPeL3
+l18
+L16
+V<i9_U5U1faUdo89FYENFg0
+!s100 6N]lkY=W=ZY=HmU;?kkOn1
 R7
 31
 R18
@@ -93,7 +93,7 @@ R21
 R12
 R13
 Egenetic_algorithm
-Z22 w1695508814
+Z22 w1695523019
 R2
 R3
 R4
@@ -102,8 +102,8 @@ Z23 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd
 Z24 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd
 l0
 L24
-VSa_A9T[LG6L@PMKWHQ54D3
-!s100 U51?ZlTIFZjeNGk0hODm]3
+VkA8i75jCPF;EPfXZFdZOK3
+!s100 nY:^W8dnmJf>kPz3f9M^R0
 R7
 31
 R8
@@ -114,16 +114,16 @@ Z26 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.
 !i113 1
 R12
 R13
-Abehavioral
+Artl
 R15
 R2
 R3
 R4
-DEx4 work 17 genetic_algorithm 0 22 Sa_A9T[LG6L@PMKWHQ54D3
-l92
-L30
-VQ7jH4de?N[K:`:dbHTdPM0
-!s100 No=d>:>U1NV@`0dPLznZ32
+DEx4 work 17 genetic_algorithm 0 22 kA8i75jCPF;EPfXZFdZOK3
+l82
+L31
+V10@OP<]MEEYi4@iXm7e][2
+!s100 ;e899bhGLe74TIH28l<Zn3
 R7
 31
 R8
@@ -149,7 +149,7 @@ VgzEHHWa>_QB4Wj7aiYmU31
 !s100 4aFS4iYBiO]`DX?;Qlfif3
 R7
 31
-R8
+R18
 !i10b 1
 R9
 Z30 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd|
@@ -169,7 +169,7 @@ V]lmB]eciC1m3XzL7RajRJ0
 !s100 :aS6iRMMcPKa0?:_L5^:_3
 R7
 31
-R8
+R18
 !i10b 1
 R9
 R30
@@ -200,7 +200,7 @@ R26
 R12
 R13
 Eprint_data
-Z32 w1695513068
+Z32 w1695524645
 R15
 R2
 R3
@@ -210,33 +210,33 @@ Z33 8D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd
 Z34 FD:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd
 l0
 L7
-VGmM_inFmbHa392`1XJ^iU1
-!s100 801CS`28PDkVeQkWUMQ[C2
+V1]F5cIM]<>U:Tn;[OY3M01
+!s100 6ZGPNED:cPJe1<7cS>05P2
 R7
 31
 R18
 !i10b 1
-R9
+R19
 Z35 !s90 -reportprogress|300|-93|-work|work|D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd|
 Z36 !s107 D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd|
 !i113 1
 R12
 R13
-Abehavioral
+Artl
 R15
 R2
 R3
 R4
-DEx4 work 10 print_data 0 22 GmM_inFmbHa392`1XJ^iU1
-l32
-L16
-VzNCJK5HP<9@dC^j^FF6H21
-!s100 ED>h02kDTejCFcSL07JQ83
+DEx4 work 10 print_data 0 22 1]F5cIM]<>U:Tn;[OY3M01
+l47
+L17
+V=<m8Dd^f>H75[E:8VD;8<1
+!s100 =kF2EGo7H`zM0HYXJnf[61
 R7
 31
 R18
 !i10b 1
-R9
+R19
 R35
 R36
 !i113 1
