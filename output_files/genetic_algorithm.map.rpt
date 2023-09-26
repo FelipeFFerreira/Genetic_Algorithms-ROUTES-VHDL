@@ -1,5 +1,5 @@
 Analysis & Synthesis report for genetic_algorithm
-Mon Sep 25 14:47:05 2023
+Tue Sep 26 14:08:11 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -23,18 +23,29 @@ Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
  15. Registers Packed Into Inferred Megafunctions
  16. Multiplexer Restructuring Statistics (Restructuring Performed)
  17. Source assignments for sync_ram:ram_instance|altsyncram:ram_rtl_0|altsyncram_hi41:auto_generated
- 18. Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance
- 19. Parameter Settings for Inferred Entity Instance: sync_ram:ram_instance|altsyncram:ram_rtl_0
- 20. Parameter Settings for Inferred Entity Instance: Init_Population:init_population_instance|lpm_mult:Mult0
- 21. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1
- 22. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2
- 23. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|lpm_divide:Mod0
- 24. altsyncram Parameter Settings by Entity Instance
- 25. lpm_mult Parameter Settings by Entity Instance
- 26. Port Connectivity Checks: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance"
- 27. Post-Synthesis Netlist Statistics for Top Partition
- 28. Elapsed Time Per Partition
- 29. Analysis & Synthesis Messages
+ 18. Parameter Settings for User Entity Instance: sync_ram:ram_instance
+ 19. Parameter Settings for User Entity Instance: Init_Population:init_population_instance
+ 20. Parameter Settings for User Entity Instance: Print_data:print_data_instance
+ 21. Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance
+ 22. Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr
+ 23. Parameter Settings for Inferred Entity Instance: sync_ram:ram_instance|altsyncram:ram_rtl_0
+ 24. Parameter Settings for Inferred Entity Instance: Init_Population:init_population_instance|lpm_mult:Mult0
+ 25. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2
+ 26. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1
+ 27. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2
+ 28. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0
+ 29. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0
+ 30. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1
+ 31. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1
+ 32. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2
+ 33. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2
+ 34. Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|lpm_divide:Mod0
+ 35. altsyncram Parameter Settings by Entity Instance
+ 36. lpm_mult Parameter Settings by Entity Instance
+ 37. Port Connectivity Checks: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance"
+ 38. Post-Synthesis Netlist Statistics for Top Partition
+ 39. Elapsed Time Per Partition
+ 40. Analysis & Synthesis Messages
 
 
 
@@ -61,16 +72,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Sep 25 14:47:05 2023          ;
+; Analysis & Synthesis Status        ; Successful - Tue Sep 26 14:08:11 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; genetic_algorithm                              ;
 ; Top-level Entity Name              ; genetic_algorithm                              ;
 ; Family                             ; Cyclone IV E                                   ;
-; Total logic elements               ; 1,461                                          ;
-;     Total combinational functions  ; 1,423                                          ;
-;     Dedicated logic registers      ; 286                                            ;
-; Total registers                    ; 286                                            ;
-; Total pins                         ; 38                                             ;
+; Total logic elements               ; 2,359                                          ;
+;     Total combinational functions  ; 2,307                                          ;
+;     Dedicated logic registers      ; 324                                            ;
+; Total registers                    ; 324                                            ;
+; Total pins                         ; 66                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 131,072                                        ;
 ; Embedded Multiplier 9-bit elements ; 0                                              ;
@@ -238,6 +249,18 @@ https://fpgasoftware.intel.com/eula.
 ; db/lpm_divide_jhm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_jhm.tdf         ;         ;
 ; db/sign_div_unsign_bkh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_bkh.tdf    ;         ;
 ; db/alt_u_div_a4f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_a4f.tdf          ;         ;
+; db/lpm_divide_ckm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_ckm.tdf         ;         ;
+; db/sign_div_unsign_4nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_4nh.tdf    ;         ;
+; db/alt_u_div_s9f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_s9f.tdf          ;         ;
+; db/lpm_divide_icm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_icm.tdf         ;         ;
+; db/sign_div_unsign_7nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_7nh.tdf    ;         ;
+; db/alt_u_div_2af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_2af.tdf          ;         ;
+; db/lpm_divide_2jm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_2jm.tdf         ;         ;
+; db/sign_div_unsign_qlh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_qlh.tdf    ;         ;
+; db/alt_u_div_87f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_87f.tdf          ;         ;
+; db/lpm_divide_vim.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_vim.tdf         ;         ;
+; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_nlh.tdf    ;         ;
+; db/alt_u_div_27f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_27f.tdf          ;         ;
 ; db/lpm_divide_cqo.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_cqo.tdf         ;         ;
 ; db/abs_divider_4dg.tdf           ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/abs_divider_4dg.tdf        ;         ;
 ; db/alt_u_div_6af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_6af.tdf          ;         ;
@@ -250,74 +273,107 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 1,461       ;
+; Estimated Total logic elements              ; 2,359       ;
 ;                                             ;             ;
-; Total combinational functions               ; 1423        ;
+; Total combinational functions               ; 2307        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 432         ;
-;     -- 3 input functions                    ; 363         ;
-;     -- <=2 input functions                  ; 628         ;
+;     -- 4 input functions                    ; 636         ;
+;     -- 3 input functions                    ; 602         ;
+;     -- <=2 input functions                  ; 1069        ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 881         ;
-;     -- arithmetic mode                      ; 542         ;
+;     -- normal mode                          ; 1525        ;
+;     -- arithmetic mode                      ; 782         ;
 ;                                             ;             ;
-; Total registers                             ; 286         ;
-;     -- Dedicated logic registers            ; 286         ;
+; Total registers                             ; 324         ;
+;     -- Dedicated logic registers            ; 324         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 38          ;
+; I/O pins                                    ; 66          ;
 ; Total memory bits                           ; 131072      ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 302         ;
-; Total fan-out                               ; 5272        ;
-; Average fan-out                             ; 2.93        ;
+; Maximum fan-out                             ; 340         ;
+; Total fan-out                               ; 7746        ;
+; Average fan-out                             ; 2.79        ;
 +---------------------------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                    ;
-+---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                        ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                ; Entity Name         ; Library Name ;
-+---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |genetic_algorithm                                ; 1423 (17)           ; 286 (5)                   ; 131072      ; 0            ; 0       ; 0         ; 38   ; 0            ; |genetic_algorithm                                                                                                                                                                 ; genetic_algorithm   ; work         ;
-;    |Init_Population:init_population_instance|     ; 226 (202)           ; 133 (133)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance                                                                                                                        ; Init_Population     ; work         ;
-;       |lpm_mult:Mult0|                            ; 24 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0                                                                                                         ; lpm_mult            ; work         ;
-;          |multcore:mult_core|                     ; 24 (9)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core                                                                                      ; multcore            ; work         ;
-;             |mpar_add:padder|                     ; 15 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                                      ; mpar_add            ; work         ;
-;                |lpm_add_sub:adder[0]|             ; 9 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                                                 ; lpm_add_sub         ; work         ;
-;                   |add_sub_h9h:auto_generated|    ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_h9h:auto_generated                      ; add_sub_h9h         ; work         ;
-;                |lpm_add_sub:adder[1]|             ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]                                                 ; lpm_add_sub         ; work         ;
-;                   |add_sub_bkh:auto_generated|    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]|add_sub_bkh:auto_generated                      ; add_sub_bkh         ; work         ;
-;                |mpar_add:sub_par_add|             ; 5 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add                                                 ; mpar_add            ; work         ;
-;                   |lpm_add_sub:adder[0]|          ; 5 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]                            ; lpm_add_sub         ; work         ;
-;                      |add_sub_fkh:auto_generated| ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]|add_sub_fkh:auto_generated ; add_sub_fkh         ; work         ;
-;    |Print_data:print_data_instance|               ; 1180 (238)          ; 148 (112)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance                                                                                                                                  ; Print_data          ; work         ;
-;       |bcd_seven_seg:bcd_seven_instance_1|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_1                                                                                               ; bcd_seven_seg       ; work         ;
-;       |bcd_seven_seg:bcd_seven_instance_2|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_2                                                                                               ; bcd_seven_seg       ; work         ;
-;       |bcd_seven_seg:bcd_seven_instance_3|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_3                                                                                               ; bcd_seven_seg       ; work         ;
-;       |bcd_seven_seg:bcd_seven_instance|          ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance                                                                                                 ; bcd_seven_seg       ; work         ;
-;       |bin_to_bcd:bin_to_bcd_instance|            ; 136 (8)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance                                                                                                   ; bin_to_bcd          ; work         ;
-;          |lpm_divide:Div2|                        ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2                                                                                   ; lpm_divide          ; work         ;
-;             |lpm_divide_jhm:auto_generated|       ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated                                                     ; lpm_divide_jhm      ; work         ;
-;                |sign_div_unsign_bkh:divider|      ; 51 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider                         ; sign_div_unsign_bkh ; work         ;
-;                   |alt_u_div_a4f:divider|         ; 51 (51)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_a4f:divider   ; alt_u_div_a4f       ; work         ;
-;          |lpm_divide:Mod1|                        ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1                                                                                   ; lpm_divide          ; work         ;
-;             |lpm_divide_q9m:auto_generated|       ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated                                                     ; lpm_divide_q9m      ; work         ;
-;                |sign_div_unsign_fkh:divider|      ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider                         ; sign_div_unsign_fkh ; work         ;
-;                   |alt_u_div_i4f:divider|         ; 77 (77)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_i4f:divider   ; alt_u_div_i4f       ; work         ;
-;       |lpm_divide:Mod0|                           ; 778 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0                                                                                                                  ; lpm_divide          ; work         ;
-;          |lpm_divide_cqo:auto_generated|          ; 778 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated                                                                                    ; lpm_divide_cqo      ; work         ;
-;             |abs_divider_4dg:divider|             ; 778 (58)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider                                                            ; abs_divider_4dg     ; work         ;
-;                |alt_u_div_6af:divider|            ; 665 (665)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|alt_u_div_6af:divider                                      ; alt_u_div_6af       ; work         ;
-;                |lpm_abs_i0a:my_abs_num|           ; 55 (55)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|lpm_abs_i0a:my_abs_num                                     ; lpm_abs_i0a         ; work         ;
-;    |sync_ram:ram_instance|                        ; 0 (0)               ; 0 (0)                     ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|sync_ram:ram_instance                                                                                                                                           ; sync_ram            ; work         ;
-;       |altsyncram:ram_rtl_0|                      ; 0 (0)               ; 0 (0)                     ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|sync_ram:ram_instance|altsyncram:ram_rtl_0                                                                                                                      ; altsyncram          ; work         ;
-;          |altsyncram_hi41:auto_generated|         ; 0 (0)               ; 0 (0)                     ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|sync_ram:ram_instance|altsyncram:ram_rtl_0|altsyncram_hi41:auto_generated                                                                                       ; altsyncram_hi41     ; work         ;
-+---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                       ;
++---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                        ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                   ; Entity Name         ; Library Name ;
++---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; |genetic_algorithm                                ; 2307 (17)           ; 324 (5)                   ; 131072      ; 0            ; 0       ; 0         ; 66   ; 0            ; |genetic_algorithm                                                                                                                                                                    ; genetic_algorithm   ; work         ;
+;    |Init_Population:init_population_instance|     ; 227 (203)           ; 133 (133)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance                                                                                                                           ; Init_Population     ; work         ;
+;       |lpm_mult:Mult0|                            ; 24 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0                                                                                                            ; lpm_mult            ; work         ;
+;          |multcore:mult_core|                     ; 24 (9)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core                                                                                         ; multcore            ; work         ;
+;             |mpar_add:padder|                     ; 15 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                                         ; mpar_add            ; work         ;
+;                |lpm_add_sub:adder[0]|             ; 9 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                                                    ; lpm_add_sub         ; work         ;
+;                   |add_sub_h9h:auto_generated|    ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_h9h:auto_generated                         ; add_sub_h9h         ; work         ;
+;                |lpm_add_sub:adder[1]|             ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]                                                    ; lpm_add_sub         ; work         ;
+;                   |add_sub_bkh:auto_generated|    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]|add_sub_bkh:auto_generated                         ; add_sub_bkh         ; work         ;
+;                |mpar_add:sub_par_add|             ; 5 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add                                                    ; mpar_add            ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 5 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]                               ; lpm_add_sub         ; work         ;
+;                      |add_sub_fkh:auto_generated| ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Init_Population:init_population_instance|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]|add_sub_fkh:auto_generated    ; add_sub_fkh         ; work         ;
+;    |Print_data:print_data_instance|               ; 2063 (179)          ; 186 (106)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance                                                                                                                                     ; Print_data          ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_1|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_1                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_2|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_2                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_3|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_3                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_4|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_4                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_5|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_5                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_6|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_6                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance_7|        ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance_7                                                                                                  ; bcd_seven_seg       ; work         ;
+;       |bcd_seven_seg:bcd_seven_instance|          ; 7 (7)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance                                                                                                    ; bcd_seven_seg       ; work         ;
+;       |bin_to_bcd:bin_to_bcd_instance_addr|       ; 940 (30)            ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr                                                                                                 ; bin_to_bcd          ; work         ;
+;          |lpm_divide:Div0|                        ; 83 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
+;             |lpm_divide_ckm:auto_generated|       ; 83 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0|lpm_divide_ckm:auto_generated                                                   ; lpm_divide_ckm      ; work         ;
+;                |sign_div_unsign_4nh:divider|      ; 83 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0|lpm_divide_ckm:auto_generated|sign_div_unsign_4nh:divider                       ; sign_div_unsign_4nh ; work         ;
+;                   |alt_u_div_s9f:divider|         ; 83 (83)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0|lpm_divide_ckm:auto_generated|sign_div_unsign_4nh:divider|alt_u_div_s9f:divider ; alt_u_div_s9f       ; work         ;
+;          |lpm_divide:Div1|                        ; 134 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1                                                                                 ; lpm_divide          ; work         ;
+;             |lpm_divide_2jm:auto_generated|       ; 134 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm      ; work         ;
+;                |sign_div_unsign_qlh:divider|      ; 134 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh ; work         ;
+;                   |alt_u_div_87f:divider|         ; 134 (134)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f       ; work         ;
+;          |lpm_divide:Div2|                        ; 125 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2                                                                                 ; lpm_divide          ; work         ;
+;             |lpm_divide_vim:auto_generated|       ; 125 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2|lpm_divide_vim:auto_generated                                                   ; lpm_divide_vim      ; work         ;
+;                |sign_div_unsign_nlh:divider|      ; 125 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2|lpm_divide_vim:auto_generated|sign_div_unsign_nlh:divider                       ; sign_div_unsign_nlh ; work         ;
+;                   |alt_u_div_27f:divider|         ; 125 (125)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2|lpm_divide_vim:auto_generated|sign_div_unsign_nlh:divider|alt_u_div_27f:divider ; alt_u_div_27f       ; work         ;
+;          |lpm_divide:Mod0|                        ; 129 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
+;             |lpm_divide_icm:auto_generated|       ; 129 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0|lpm_divide_icm:auto_generated                                                   ; lpm_divide_icm      ; work         ;
+;                |sign_div_unsign_7nh:divider|      ; 129 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0|lpm_divide_icm:auto_generated|sign_div_unsign_7nh:divider                       ; sign_div_unsign_7nh ; work         ;
+;                   |alt_u_div_2af:divider|         ; 129 (129)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0|lpm_divide_icm:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_2af:divider ; alt_u_div_2af       ; work         ;
+;          |lpm_divide:Mod1|                        ; 207 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1                                                                                 ; lpm_divide          ; work         ;
+;             |lpm_divide_icm:auto_generated|       ; 207 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1|lpm_divide_icm:auto_generated                                                   ; lpm_divide_icm      ; work         ;
+;                |sign_div_unsign_7nh:divider|      ; 207 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1|lpm_divide_icm:auto_generated|sign_div_unsign_7nh:divider                       ; sign_div_unsign_7nh ; work         ;
+;                   |alt_u_div_2af:divider|         ; 207 (207)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1|lpm_divide_icm:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_2af:divider ; alt_u_div_2af       ; work         ;
+;          |lpm_divide:Mod2|                        ; 232 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2                                                                                 ; lpm_divide          ; work         ;
+;             |lpm_divide_icm:auto_generated|       ; 232 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2|lpm_divide_icm:auto_generated                                                   ; lpm_divide_icm      ; work         ;
+;                |sign_div_unsign_7nh:divider|      ; 232 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2|lpm_divide_icm:auto_generated|sign_div_unsign_7nh:divider                       ; sign_div_unsign_7nh ; work         ;
+;                   |alt_u_div_2af:divider|         ; 232 (232)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2|lpm_divide_icm:auto_generated|sign_div_unsign_7nh:divider|alt_u_div_2af:divider ; alt_u_div_2af       ; work         ;
+;       |bin_to_bcd:bin_to_bcd_instance|            ; 182 (8)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance                                                                                                      ; bin_to_bcd          ; work         ;
+;          |lpm_divide:Div2|                        ; 55 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2                                                                                      ; lpm_divide          ; work         ;
+;             |lpm_divide_jhm:auto_generated|       ; 55 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated                                                        ; lpm_divide_jhm      ; work         ;
+;                |sign_div_unsign_bkh:divider|      ; 55 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider                            ; sign_div_unsign_bkh ; work         ;
+;                   |alt_u_div_a4f:divider|         ; 55 (55)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2|lpm_divide_jhm:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_a4f:divider      ; alt_u_div_a4f       ; work         ;
+;          |lpm_divide:Mod1|                        ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1                                                                                      ; lpm_divide          ; work         ;
+;             |lpm_divide_q9m:auto_generated|       ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated                                                        ; lpm_divide_q9m      ; work         ;
+;                |sign_div_unsign_fkh:divider|      ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider                            ; sign_div_unsign_fkh ; work         ;
+;                   |alt_u_div_i4f:divider|         ; 42 (42)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_i4f:divider      ; alt_u_div_i4f       ; work         ;
+;          |lpm_divide:Mod2|                        ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2                                                                                      ; lpm_divide          ; work         ;
+;             |lpm_divide_q9m:auto_generated|       ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2|lpm_divide_q9m:auto_generated                                                        ; lpm_divide_q9m      ; work         ;
+;                |sign_div_unsign_fkh:divider|      ; 77 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider                            ; sign_div_unsign_fkh ; work         ;
+;                   |alt_u_div_i4f:divider|         ; 77 (77)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2|lpm_divide_q9m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_i4f:divider      ; alt_u_div_i4f       ; work         ;
+;       |lpm_divide:Mod0|                           ; 706 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0                                                                                                                     ; lpm_divide          ; work         ;
+;          |lpm_divide_cqo:auto_generated|          ; 706 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated                                                                                       ; lpm_divide_cqo      ; work         ;
+;             |abs_divider_4dg:divider|             ; 706 (57)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider                                                               ; abs_divider_4dg     ; work         ;
+;                |alt_u_div_6af:divider|            ; 587 (587)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|alt_u_div_6af:divider                                         ; alt_u_div_6af       ; work         ;
+;                |lpm_abs_i0a:my_abs_num|           ; 62 (62)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|Print_data:print_data_instance|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|lpm_abs_i0a:my_abs_num                                        ; lpm_abs_i0a         ; work         ;
+;    |sync_ram:ram_instance|                        ; 0 (0)               ; 0 (0)                     ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|sync_ram:ram_instance                                                                                                                                              ; sync_ram            ; work         ;
+;       |altsyncram:ram_rtl_0|                      ; 0 (0)               ; 0 (0)                     ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|sync_ram:ram_instance|altsyncram:ram_rtl_0                                                                                                                         ; altsyncram          ; work         ;
+;          |altsyncram_hi41:auto_generated|         ; 0 (0)               ; 0 (0)                     ; 131072      ; 0            ; 0       ; 0         ; 0    ; 0            ; |genetic_algorithm|sync_ram:ram_instance|altsyncram:ram_rtl_0|altsyncram_hi41:auto_generated                                                                                          ; altsyncram_hi41     ; work         ;
++---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -376,7 +432,8 @@ Encoding Type:  One-Hot
 +--------------------------------------------------------------+----------------------------------------+
 ; Init_Population:init_population_instance|datain[4..7,12..15] ; Lost fanout                            ;
 ; state.s_evaluate                                             ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 9                        ;                                        ;
+; Print_data:print_data_instance|count_address[13..31]         ; Lost fanout                            ;
+; Total Number of Removed Registers = 28                       ;                                        ;
 +--------------------------------------------------------------+----------------------------------------+
 
 
@@ -385,12 +442,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 286   ;
+; Total registers                              ; 324   ;
 ; Number of registers using Synchronous Clear  ; 96    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 95    ;
+; Number of registers using Asynchronous Clear ; 92    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 171   ;
+; Number of registers using Clock Enable       ; 196   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -424,10 +481,9 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------+
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |genetic_algorithm|Print_data:print_data_instance|count_address[13]     ;
-; 5:1                ; 19 bits   ; 57 LEs        ; 19 LEs               ; 38 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|p[31]       ;
-; 7:1                ; 32 bits   ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|i[21]       ;
-; 7:1                ; 32 bits   ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|j[10]       ;
+; 5:1                ; 19 bits   ; 57 LEs        ; 19 LEs               ; 38 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|p[23]       ;
+; 7:1                ; 32 bits   ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|i[25]       ;
+; 7:1                ; 32 bits   ; 128 LEs       ; 32 LEs               ; 96 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|j[24]       ;
 ; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |genetic_algorithm|Init_Population:init_population_instance|p[3]        ;
 ; 7:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; No         ; |genetic_algorithm|Init_Population:init_population_instance|Selector100 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------+
@@ -442,6 +498,39 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+------------------------------------+
 
 
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sync_ram:ram_instance ;
++-------------------+-------+----------------------------------------+
+; Parameter Name    ; Value ; Type                                   ;
++-------------------+-------+----------------------------------------+
+; num_bin_size_addr ; 13    ; Signed Integer                         ;
+; num_bin_size_data ; 24    ; Signed Integer                         ;
++-------------------+-------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Init_Population:init_population_instance ;
++-------------------+-------+-----------------------------------------------------------+
+; Parameter Name    ; Value ; Type                                                      ;
++-------------------+-------+-----------------------------------------------------------+
+; num_bin_size_addr ; 13    ; Signed Integer                                            ;
+; num_bin_size_data ; 24    ; Signed Integer                                            ;
++-------------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Print_data:print_data_instance ;
++-------------------+-------+-------------------------------------------------+
+; Parameter Name    ; Value ; Type                                            ;
++-------------------+-------+-------------------------------------------------+
+; num_bin_size_addr ; 13    ; Signed Integer                                  ;
+; num_bin_size_data ; 24    ; Signed Integer                                  ;
++-------------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance ;
 +----------------+-------+-----------------------------------------------------------------------------------+
@@ -449,6 +538,16 @@ Encoding Type:  One-Hot
 +----------------+-------+-----------------------------------------------------------------------------------+
 ; num_bin_size   ; 8     ; Signed Integer                                                                    ;
 +----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr ;
++----------------+-------+----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------------+
+; num_bin_size   ; 13    ; Signed Integer                                                                         ;
++----------------+-------+----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -549,6 +648,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2 ;
++------------------------+----------------+--------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                 ;
++------------------------+----------------+--------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 8              ; Untyped                                                                              ;
+; LPM_WIDTHD             ; 8              ; Untyped                                                                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                              ;
+; CBXI_PARAMETER         ; lpm_divide_q9m ; Untyped                                                                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                       ;
++------------------------+----------------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1 ;
 +------------------------+----------------+--------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                                                 ;
@@ -591,6 +713,144 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                         ;
 ; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                       ;
 +------------------------+----------------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0 ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 13             ; Untyped                                                                                   ;
+; LPM_WIDTHD             ; 10             ; Untyped                                                                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; lpm_divide_ckm ; Untyped                                                                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                            ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0 ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 13             ; Untyped                                                                                   ;
+; LPM_WIDTHD             ; 13             ; Untyped                                                                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; lpm_divide_icm ; Untyped                                                                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                            ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1 ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 13             ; Untyped                                                                                   ;
+; LPM_WIDTHD             ; 7              ; Untyped                                                                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                                                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                            ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1 ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 13             ; Untyped                                                                                   ;
+; LPM_WIDTHD             ; 13             ; Untyped                                                                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; lpm_divide_icm ; Untyped                                                                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                            ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2 ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 13             ; Untyped                                                                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                                                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; lpm_divide_vim ; Untyped                                                                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                            ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2 ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 13             ; Untyped                                                                                   ;
+; LPM_WIDTHD             ; 13             ; Untyped                                                                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; lpm_divide_icm ; Untyped                                                                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                            ;
++------------------------+----------------+-------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -672,27 +932,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 38                          ;
-; cycloneiii_ff         ; 286                         ;
-;     CLR               ; 87                          ;
-;     ENA               ; 67                          ;
-;     ENA CLR           ; 8                           ;
+; boundary_port         ; 66                          ;
+; cycloneiii_ff         ; 324                         ;
+;     CLR               ; 72                          ;
+;     ENA               ; 80                          ;
+;     ENA CLR           ; 20                          ;
 ;     ENA SCLR          ; 96                          ;
-;     plain             ; 28                          ;
-; cycloneiii_lcell_comb ; 1423                        ;
-;     arith             ; 542                         ;
-;         2 data inputs ; 219                         ;
-;         3 data inputs ; 323                         ;
-;     normal            ; 881                         ;
-;         0 data inputs ; 19                          ;
-;         1 data inputs ; 19                          ;
-;         2 data inputs ; 371                         ;
-;         3 data inputs ; 40                          ;
-;         4 data inputs ; 432                         ;
+;     plain             ; 56                          ;
+; cycloneiii_lcell_comb ; 2307                        ;
+;     arith             ; 782                         ;
+;         2 data inputs ; 221                         ;
+;         3 data inputs ; 561                         ;
+;     normal            ; 1525                        ;
+;         0 data inputs ; 62                          ;
+;         1 data inputs ; 28                          ;
+;         2 data inputs ; 758                         ;
+;         3 data inputs ; 41                          ;
+;         4 data inputs ; 636                         ;
 ; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 53.20                       ;
-; Average LUT depth     ; 28.01                       ;
+; Max LUT depth         ; 45.80                       ;
+; Average LUT depth     ; 25.59                       ;
 +-----------------------+-----------------------------+
 
 
@@ -711,41 +971,38 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Mon Sep 25 14:46:49 2023
+    Info: Processing started: Tue Sep 26 14:07:57 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off genetic_algorithm -c genetic_algorithm
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 3 design units, including 1 entities, in source file genetic_algorithm.vhd
     Info (12022): Found design unit 1: my_types File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 6
-    Info (12022): Found design unit 2: genetic_algorithm-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 31
+    Info (12022): Found design unit 2: genetic_algorithm-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 33
     Info (12023): Found entity 1: genetic_algorithm File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 24
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_seven_seg.vhd
     Info (12022): Found design unit 1: bcd_seven_seg-rtl File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd Line: 13
     Info (12023): Found entity 1: bcd_seven_seg File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bcd_seven_seg.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file init_population.vhd
-    Info (12022): Found design unit 1: Init_Population-Behavioral File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 18
+    Info (12022): Found design unit 1: Init_Population-Behavioral File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 22
     Info (12023): Found entity 1: Init_Population File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file print_data.vhd
-    Info (12022): Found design unit 1: Print_data-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 17
+    Info (12022): Found design unit 1: Print_data-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 24
     Info (12023): Found entity 1: Print_data File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file sync_ram.vhd
-    Info (12022): Found design unit 1: sync_ram-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd Line: 16
+    Info (12022): Found design unit 1: sync_ram-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd Line: 20
     Info (12023): Found entity 1: sync_ram File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/sync_ram.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file bin_to_bcd.vhd
     Info (12022): Found design unit 1: bin_to_bcd-RTL File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 21
     Info (12023): Found entity 1: bin_to_bcd File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 7
 Info (12127): Elaborating entity "genetic_algorithm" for the top level hierarchy
-Warning (10540): VHDL Signal Declaration warning at genetic_algorithm.vhd(36): used explicit default value for signal "done_print" because signal was never assigned a value File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 36
-Info (12128): Elaborating entity "sync_ram" for hierarchy "sync_ram:ram_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 83
-Info (12128): Elaborating entity "Init_Population" for hierarchy "Init_Population:init_population_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 92
-Warning (10036): Verilog HDL or VHDL warning at Init_Population.vhd(23): object "start" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 23
-Info (12128): Elaborating entity "Print_data" for hierarchy "Print_data:print_data_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 103
-Warning (10036): Verilog HDL or VHDL warning at Print_data.vhd(20): object "bcd_i_thousands" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 20
-Warning (10036): Verilog HDL or VHDL warning at Print_data.vhd(20): object "bcd_i_hundreds" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 20
-Warning (10036): Verilog HDL or VHDL warning at Print_data.vhd(22): object "input_data_route_old" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 22
-Warning (10492): VHDL Process Statement warning at Print_data.vhd(130): signal "input_data_route" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 130
-Info (12128): Elaborating entity "bin_to_bcd" for hierarchy "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 54
-Info (12128): Elaborating entity "bcd_seven_seg" for hierarchy "Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 68
+Warning (10540): VHDL Signal Declaration warning at genetic_algorithm.vhd(38): used explicit default value for signal "done_print" because signal was never assigned a value File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 38
+Info (12128): Elaborating entity "sync_ram" for hierarchy "sync_ram:ram_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 100
+Info (12128): Elaborating entity "Init_Population" for hierarchy "Init_Population:init_population_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 113
+Warning (10036): Verilog HDL or VHDL warning at Init_Population.vhd(25): object "start" assigned a value but never read File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 25
+Info (12128): Elaborating entity "Print_data" for hierarchy "Print_data:print_data_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/genetic_algorithm.vhd Line: 128
+Info (12128): Elaborating entity "bin_to_bcd" for hierarchy "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 61
+Info (12128): Elaborating entity "bin_to_bcd" for hierarchy "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 75
+Info (12128): Elaborating entity "bcd_seven_seg" for hierarchy "Print_data:print_data_instance|bcd_seven_seg:bcd_seven_instance" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 89
 Info (19000): Inferred 1 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "sync_ram:ram_instance|ram_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to SINGLE_PORT
@@ -757,11 +1014,18 @@ Info (19000): Inferred 1 megafunctions from design logic
         Info (286033): Parameter OUTDATA_ACLR_A set to NONE
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-Info (278001): Inferred 4 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Init_Population:init_population_instance|Mult0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 69
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+Info (278001): Inferred 11 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Init_Population:init_population_instance|Mult0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 72
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Mod2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|Div2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 142
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|Div0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 34
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 35
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|Div1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 35
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|Div2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|Mod2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Print_data:print_data_instance|Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 154
 Info (12130): Elaborated megafunction instantiation "sync_ram:ram_instance|altsyncram:ram_rtl_0"
 Info (12133): Instantiated megafunction "sync_ram:ram_instance|altsyncram:ram_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "SINGLE_PORT"
@@ -775,8 +1039,8 @@ Info (12133): Instantiated megafunction "sync_ram:ram_instance|altsyncram:ram_rt
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_hi41.tdf
     Info (12023): Found entity 1: altsyncram_hi41 File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/altsyncram_hi41.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "Init_Population:init_population_instance|lpm_mult:Mult0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 69
-Info (12133): Instantiated megafunction "Init_Population:init_population_instance|lpm_mult:Mult0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 69
+Info (12130): Elaborated megafunction instantiation "Init_Population:init_population_instance|lpm_mult:Mult0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 72
+Info (12133): Instantiated megafunction "Init_Population:init_population_instance|lpm_mult:Mult0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Init_Population.vhd Line: 72
     Info (12134): Parameter "LPM_WIDTHA" = "13"
     Info (12134): Parameter "LPM_WIDTHB" = "7"
     Info (12134): Parameter "LPM_WIDTHP" = "20"
@@ -799,8 +1063,8 @@ Info (12131): Elaborated megafunction instantiation "Init_Population:init_popula
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_fkh.tdf
     Info (12023): Found entity 1: add_sub_fkh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/add_sub_fkh.tdf Line: 23
 Info (12131): Elaborated megafunction instantiation "Init_Population:init_population_instance|lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "Init_Population:init_population_instance|lpm_mult:Mult0" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/lpm_mult.tdf Line: 352
-Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
-Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod2" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "8"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -815,6 +1079,12 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/add_
     Info (12023): Found entity 1: add_sub_7pc File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/add_sub_7pc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
     Info (12023): Found entity 1: add_sub_8pc File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/add_sub_8pc.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Mod1" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+    Info (12134): Parameter "LPM_WIDTHN" = "8"
+    Info (12134): Parameter "LPM_WIDTHD" = "8"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
 Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance|lpm_divide:Div2" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
     Info (12134): Parameter "LPM_WIDTHN" = "8"
@@ -827,8 +1097,68 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_bkh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_bkh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_a4f.tdf
     Info (12023): Found entity 1: alt_u_div_a4f File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_a4f.tdf Line: 27
-Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|lpm_divide:Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 142
-Info (12133): Instantiated megafunction "Print_data:print_data_instance|lpm_divide:Mod0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 142
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 34
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 34
+    Info (12134): Parameter "LPM_WIDTHN" = "13"
+    Info (12134): Parameter "LPM_WIDTHD" = "10"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ckm.tdf
+    Info (12023): Found entity 1: lpm_divide_ckm File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_ckm.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_4nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_4nh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_4nh.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_s9f.tdf
+    Info (12023): Found entity 1: alt_u_div_s9f File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_s9f.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 35
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 35
+    Info (12134): Parameter "LPM_WIDTHN" = "13"
+    Info (12134): Parameter "LPM_WIDTHD" = "13"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_icm.tdf
+    Info (12023): Found entity 1: lpm_divide_icm File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_icm.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_7nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_7nh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_7nh.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_2af.tdf
+    Info (12023): Found entity 1: alt_u_div_2af File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_2af.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 35
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div1" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 35
+    Info (12134): Parameter "LPM_WIDTHN" = "13"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_2jm.tdf
+    Info (12023): Found entity 1: lpm_divide_2jm File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_2jm.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_qlh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_qlh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_qlh.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_87f.tdf
+    Info (12023): Found entity 1: alt_u_div_87f File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_87f.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod1" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+    Info (12134): Parameter "LPM_WIDTHN" = "13"
+    Info (12134): Parameter "LPM_WIDTHD" = "13"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Div2" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 36
+    Info (12134): Parameter "LPM_WIDTHN" = "13"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_vim.tdf
+    Info (12023): Found entity 1: lpm_divide_vim File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_divide_vim.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_nlh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_nlh File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/sign_div_unsign_nlh.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_27f.tdf
+    Info (12023): Found entity 1: alt_u_div_27f File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/alt_u_div_27f.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|bin_to_bcd:bin_to_bcd_instance_addr|lpm_divide:Mod2" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/bin_to_bcd.vhd Line: 37
+    Info (12134): Parameter "LPM_WIDTHN" = "13"
+    Info (12134): Parameter "LPM_WIDTHD" = "13"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "Print_data:print_data_instance|lpm_divide:Mod0" File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 154
+Info (12133): Instantiated megafunction "Print_data:print_data_instance|lpm_divide:Mod0" with the following parameter: File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 154
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "32"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
@@ -844,21 +1174,21 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_
     Info (12023): Found entity 1: lpm_abs_i0a File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/db/lpm_abs_i0a.tdf Line: 25
 Info (13014): Ignored 31 buffer(s)
     Info (13016): Ignored 31 CARRY_SUM buffer(s)
-Info (13000): Registers with preset signals will power-up high File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 153
+Info (13000): Registers with preset signals will power-up high File: D:/Mestrado-ITA/VHDL/Genetic_Algorithms-ROUTES-VHDL/Print_data.vhd Line: 167
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 8 registers lost all their fanouts during netlist optimizations.
+Info (17049): 27 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1516 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2442 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
-    Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 1462 logic cells
+    Info (21059): Implemented 56 output pins
+    Info (21061): Implemented 2360 logic cells
     Info (21064): Implemented 16 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Mon Sep 25 14:47:05 2023
-    Info: Elapsed time: 00:00:16
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4884 megabytes
+    Info: Processing ended: Tue Sep 26 14:08:11 2023
+    Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:25
 
 

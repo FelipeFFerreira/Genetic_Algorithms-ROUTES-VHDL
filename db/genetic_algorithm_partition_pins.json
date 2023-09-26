@@ -116,6 +116,118 @@
 					"strict" : false
 				},
 				{
+					"name" : "output_4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output_4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output_4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output_4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output_5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output_6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output_7[6]",
+					"strict" : false
+				},
+				{
 					"name" : "clock",
 					"strict" : false
 				},
@@ -128,23 +240,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "input_data_route[0]",
-					"strict" : false
-				},
-				{
-					"name" : "input_data_route[1]",
-					"strict" : false
-				},
-				{
-					"name" : "input_data_route[2]",
-					"strict" : false
-				},
-				{
-					"name" : "input_data_route[3]",
-					"strict" : false
-				},
-				{
-					"name" : "input_data_route[4]",
+					"name" : "input_data_route[6]",
 					"strict" : false
 				},
 				{
@@ -152,7 +248,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "input_data_route[6]",
+					"name" : "input_data_route[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_data_route[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_data_route[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_data_route[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_data_route[0]",
 					"strict" : false
 				}
 			]

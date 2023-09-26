@@ -9,13 +9,13 @@ entity bin_to_bcd is
         NUM_BIN_SIZE : integer := 8
     );
     PORT ( 
-        clock        : in std_logic;
-        reset        : in std_logic;
-        num_bin      : in std_logic_vector(NUM_BIN_SIZE - 1 downto 0);
-        bcd_thousands  : out std_logic_vector(3 downto 0);
-        bcd_hundreds   : out std_logic_vector(3 downto 0);
-        bcd_dozens   : out std_logic_vector(3 downto 0);
-        bcd_units    : out std_logic_vector(3 downto 0));
+        clock           : in std_logic;
+        reset           : in std_logic;
+        num_bin         : in std_logic_vector(NUM_BIN_SIZE - 1 downto 0);
+        bcd_thousands   : out std_logic_vector(3 downto 0);
+        bcd_hundreds    : out std_logic_vector(3 downto 0);
+        bcd_dozens      : out std_logic_vector(3 downto 0);
+        bcd_units       : out std_logic_vector(3 downto 0));
 end bin_to_bcd;
 
 architecture RTL of bin_to_bcd is
@@ -33,7 +33,7 @@ BEGIN
             decimal_num := to_integer(unsigned(num_bin));
             bcd_thousands <= std_logic_vector(to_unsigned(decimal_num / 1000, 4)); -- milhares
             bcd_hundreds <= std_logic_vector(to_unsigned((decimal_num mod 1000) / 100, 4)); -- centenas
-            bcd_dozens <= std_logic_vector(to_unsigned(decimal_num / 10, 4)); -- dezenas
+            bcd_dozens <= std_logic_vector(to_unsigned((decimal_num mod 100) / 10, 4)); -- dezenas
             bcd_units <= std_logic_vector(to_unsigned(decimal_num mod 10, 4)); -- unidades
         END IF;
     END PROCESS;
